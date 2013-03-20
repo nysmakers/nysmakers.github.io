@@ -1,0 +1,45 @@
+body {
+  background: #f9f9f9;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: Helvetica;
+  font-weight: 500;
+  text-rendering: optimizelegibility;
+  text-transform: lowercase;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+
+  &:hover, &:visited {
+    color: white;
+  }
+}
+
+p, li {
+  font-family: Helvetica;
+  font-size: 120%;
+  font-weight: 500;
+}
+
+li p, li li {
+  font-size: 100%;
+}
+
+p, li, code, h1, h2, h3, h4, h5 {
+  line-height: 1.5em;
+}
+
+li {
+  margin-bottom: .4em;
+}
+
+ul {
+  padding-left: 1.5em;
+}
