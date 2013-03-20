@@ -1,2 +1,12 @@
 @import 'normalize';
 @import 'base';
+
+
+body{
+	background:url('/images/buffalo_usgs-edited.jpg') no-repeat;
+	background-size:cover;
+}
+
+nav, .allcontent{
+	text-align:center;
+}
