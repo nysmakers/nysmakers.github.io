@@ -364,6 +364,7 @@ li {
 ul {
   padding-left: 1.5em; }
 
+<<<<<<< HEAD
 html {
   background: url('/images/buffalo_usgs-edited.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -372,6 +373,29 @@ html {
   background-size: cover;
 }
 
+=======
+h1 {
+  margin: 0px;
+  padding: 0px; }
+
+header {
+  background: url("/images/buffalo_usgs-edited.jpg") no-repeat;
+  background-size: cover;
+  min-height: 550px;
+  border-bottom: 1px solid #2f4447; }
+>>>>>>> added logo file and modified some css
 
 nav, .allcontent {
   text-align: center; }
+
+header nav h1 a.logo {
+  background: url("/images/ncr-logo-date.png") no-repeat;
+  width: 400px;
+  height: 300px;
+  display: block;
+  margin: 0px auto;
+  text-indent: -9999px;
+  overflow: none; }
+
+header nav h2 {
+  text-indent: -9999px; }
