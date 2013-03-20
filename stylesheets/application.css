@@ -365,9 +365,14 @@ li {
 ul {
   padding-left: 1.5em; }
 
-body {
-  background: url("/images/buffalo_usgs-edited.jpg") no-repeat;
-  background-size: cover; }
+html {
+  background: url('/images/buffalo_usgs-edited.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 
 nav, .allcontent {
   text-align: center; }
