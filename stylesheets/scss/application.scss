@@ -1,87 +1,90 @@
 @import 'normalize';
 @import 'base';
 
-
 body, h1, h2, h3, h4, h5, h6{font-family: 'Roboto Condensed', sans-serif;}
 
 h1{
-	margin:0px;
-	padding:0px;
+  margin:0px;
+  padding:0px;
 }
 
-header{
-	background:url('/images/buffalo_usgs-edited.jpg') no-repeat;
-	background-size:cover;
-	min-height:650px;
-	border-bottom:1px solid #2f4447;
+header {
+  min-width: 300px;
+  min-height: 100%;
+  background:url('/images/buffalo_usgs-edited.jpg') no-repeat;
+  background-size:cover;
+  border-bottom:1px solid #2f4447;
 }
 
 header nav{
-	background: #333;
-	width: 500px;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
-	margin: 0px auto;
-	position:relative;
-	top:30px;
-	color:#fff;
-	/**/
-	box-shadow: 3px 3px 0px 0px #fff;
-	-webkit-box-shadow: -3px -3px 0px 1px #768185;
+  background: rgba(50,50,50,0.92);
+  max-width: 500px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin: 0px auto;
+  position:relative;
+  top:30px;
+  color:#fff;
+  /**/
+  box-shadow: 3px 3px 0px 0px #fff;
+  -webkit-box-shadow: -3px -3px 0px 1px #768185;
+
+  @media only screen and (max-device-width: 480px) {
+  }
 }
 
 header nav, .mailForm{
-	text-align:center;
+  text-align:center;
 }
 
-header nav h1 a.logo{
-	background:url('/images/ncr-logo-date.png') 0px 20px no-repeat;
-	width:400px;
-	height:300px;
-	background-size: cover;
-	display:block;
-	margin:0px auto;
-	text-indent:-9999px;
-	overflow:none;
+header nav h1 a.logo {
+  // background:url('/images/ncr-logo-date.png') 0px 20px no-repeat;
+  display:block;
+  margin: 0px auto;
+  max-width: 400px;
+
+  & img {
+    width: 100%;
+  }
 }
 
 header nav h2#date{
-	display:none;
+  display:none;
 }
 
 h1{
-	font-size: 2em;
-	margin: 0px;
+  font-size: 2em;
+  margin: 0px;
 }
 
 .mailForm h2, .mailForm h5{
-	font-weight:100;
-	text-transform:none;
+  font-weight:100;
+  text-transform:none;
 }
 
 .mailForm{
-	border-top:1px solid #fff;
-	margin-top: 25px;
-	padding:25px 20px;
-	background:#5a666a;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
-	/**/
-	border-top-left-radius:0px;
-	border-top-right-radius:0px;
-	font-weight:100;
+  border-top:1px solid #fff;
+  margin-top: 25px;
+  padding:25px 20px;
+  background:#5a666a;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  /**/
+  border-top-left-radius:0px;
+  border-top-right-radius:0px;
+  font-weight:100;
 }
 
 
 .mailForm .mc-field-group .email{
-	padding: 10px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	border:none;
-	min-height: 25px;
+  padding: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border:none;
+  min-height: 25px;
 }
 
 
@@ -106,8 +109,8 @@ input.punch {
   text-shadow: 0px -1px 1px #1e2d4d;
   width: 150px;
   -webkit-background-clip: padding-box; 
-	position:relative;
-	top:-5px;
+  position:relative;
+  top:-5px;
 }
   input.punch:hover {
     -webkit-box-shadow: inset 0 0px 20px 1px #87adff, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
@@ -116,16 +119,3 @@ input.punch {
   input.punch:active {
     -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111;
     box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111; }
-
-
-
-
-
-
-
-
-
-
-
-
-

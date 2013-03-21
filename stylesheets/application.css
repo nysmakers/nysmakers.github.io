@@ -330,6 +330,12 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
 body {
   background: #f9f9f9; }
 
@@ -373,14 +379,15 @@ h1 {
   padding: 0px; }
 
 header {
+  min-width: 300px;
+  min-height: 100%;
   background: url("/images/buffalo_usgs-edited.jpg") no-repeat;
   background-size: cover;
-  min-height: 650px;
   border-bottom: 1px solid #2f4447; }
 
 header nav {
-  background: #333;
-  width: 500px;
+  background: rgba(50, 50, 50, 0.92);
+  max-width: 500px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
@@ -396,14 +403,11 @@ header nav, .mailForm {
   text-align: center; }
 
 header nav h1 a.logo {
-  background: url("/images/ncr-logo-date.png") 0px 20px no-repeat;
-  width: 400px;
-  height: 300px;
-  background-size: cover;
   display: block;
   margin: 0px auto;
-  text-indent: -9999px;
-  overflow: none; }
+  max-width: 400px; }
+  header nav h1 a.logo img {
+    width: 100%; }
 
 header nav h2#date {
   display: none; }
