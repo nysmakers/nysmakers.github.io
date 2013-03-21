@@ -383,7 +383,8 @@ header {
   min-height: 100%;
   background: url("/images/buffalo_usgs-edited.jpg") no-repeat;
   background-size: cover;
-  border-bottom: 1px solid #2f4447; }
+  border-bottom: 1px solid #2f4447;
+  overflow: auto; }
 
 header nav {
   background: rgba(50, 50, 50, 0.92);
@@ -391,9 +392,7 @@ header nav {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
-  margin: 0px auto;
-  position: relative;
-  top: 30px;
+  margin: 30px auto;
   color: #fff;
   /**/
   box-shadow: 3px 3px 0px 0px #fff;
