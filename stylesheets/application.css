@@ -199,7 +199,7 @@ figure {
  * Define consistent border, margin, and padding.
  */
 fieldset {
-  border: 1px solid #c0c0c0;
+  border: 1px solid silver;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em; }
 
@@ -337,26 +337,23 @@ html, body {
   padding: 0; }
 
 body {
-  background: #f9f9f9; }
+  background: #f9f9f9;
+  font-family: "Roboto Condensed", Helvetica, sans-serif; }
 
 h1, h2, h3, h4, h5 {
-  font-family: Helvetica;
   font-weight: 500;
-  text-rendering: optimizelegibility;
-  text-transform: lowercase; }
+  text-rendering: optimizelegibility; }
 
 img {
   max-width: 100%; }
 
 a {
-  color: white;
-  text-decoration: none; }
+  color: white; }
   a:hover, a:visited {
     color: white; }
 
 p, li {
-  font-family: Helvetica;
-  font-size: 120%;
+  font-size: 90%;
   font-weight: 500; }
 
 li p, li li {
@@ -371,13 +368,6 @@ li {
 ul {
   padding-left: 1.5em; }
 
-body, h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto Condensed', sans-serif; }
-
-h1 {
-  margin: 0px;
-  padding: 0px; }
-
 header {
   min-width: 300px;
   min-height: 100%;
@@ -385,60 +375,46 @@ header {
   background-size: cover;
   border-bottom: 1px solid #2f4447;
   overflow: auto; }
-
-header nav {
-  background: rgba(50, 50, 50, 0.92);
-  max-width: 500px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  margin: 30px auto;
-  color: #fff;
-  /**/
-  box-shadow: 3px 3px 0px 0px #fff;
-  -webkit-box-shadow: -3px -3px 0px 1px #768185; }
-
-header nav, .mailForm {
-  text-align: center; }
-
-header nav h1 a.logo {
-  display: block;
-  margin: 0px auto;
-  max-width: 400px; }
-  header nav h1 a.logo img {
-    width: 100%; }
-
-header nav h2#date {
-  display: none; }
-
-h1 {
-  font-size: 2em;
-  margin: 0px; }
-
-.mailForm h2, .mailForm h5 {
-  font-weight: 100;
-  text-transform: none; }
-
-.mailForm {
-  border-top: 1px solid #fff;
-  margin-top: 25px;
-  padding: 25px 20px;
-  background: #5a666a;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  /**/
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-  font-weight: 100; }
-
-.mailForm .mc-field-group .email {
-  padding: 10px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  border: none;
-  min-height: 25px; }
+  header h1 {
+    margin: 0px;
+    padding: 0px; }
+  header nav {
+    background: rgba(50, 50, 50, 0.92);
+    max-width: 500px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin: 30px auto;
+    color: #fff;
+    box-shadow: 3px 3px 0px 0px white;
+    -webkit-box-shadow: -3px -3px 0px 1px #768185; }
+    header nav h1 a.logo {
+      display: block;
+      margin: 0px auto;
+      max-width: 400px; }
+      header nav h1 a.logo img {
+        width: 100%; }
+  header nav, header .mailForm {
+    text-align: center; }
+  header .mailForm {
+    border-top: 1px solid white;
+    padding: 25px 20px;
+    background: #5a666a;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    font-weight: 100; }
+    header .mailForm h2 {
+      font-weight: 100; }
+    header .mailForm .mc-field-group .email {
+      padding: 10px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      border: none;
+      min-height: 25px; }
 
 /* punch
 *******************************************************************************/

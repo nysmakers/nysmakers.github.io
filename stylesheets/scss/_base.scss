@@ -7,13 +7,12 @@ html, body {
 
 body {
   background: #f9f9f9;
+  font-family: 'Roboto Condensed', Helvetica, sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: Helvetica;
   font-weight: 500;
   text-rendering: optimizelegibility;
-  text-transform: lowercase;
 }
 
 img {
@@ -22,7 +21,6 @@ img {
 
 a {
   color: white;
-  text-decoration: none;
 
   &:hover, &:visited {
     color: white;
@@ -30,8 +28,7 @@ a {
 }
 
 p, li {
-  font-family: Helvetica;
-  font-size: 120%;
+  font-size: 90%;
   font-weight: 500;
 }
 
