@@ -49,6 +49,7 @@ header {
     text-align:center;
   }
 
+<<<<<<< HEAD
   .mailForm {
     border-top:1px solid #fff;
     padding:25px 20px;
@@ -76,31 +77,70 @@ header {
 }
 
 /* punch
+=======
+h1{
+  font-size: 2em;
+  margin: 0px;
+}
+
+.mailForm h2, .mailForm h5{
+  font-weight:100;
+  text-transform:none;
+}
+
+.mailForm{
+  border-top:1px solid #fff;
+  padding:25px 20px;
+  background:#5a666a;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  /**/
+  border-top-left-radius:0px;
+  border-top-right-radius:0px;
+  font-weight:100;
+}
+
+
+.mailForm .mc-field-group .email{
+  padding: 10px;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+  border:none;
+}
+
+
+
+
+/* button
+>>>>>>> button edit.
 *******************************************************************************/
 input.punch {
-  background: #4162a8;
-  border-top: 1px solid #38538c;
-  border-right: 1px solid #1f2d4d;
-  border-bottom: 1px solid #151e33;
-  border-left: 1px solid #1f2d4d;
-  border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
-  box-shadow: inset 0 1px 10px 1px #5c8bee, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
+  background: #bed428;
+  border:none;
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-bottomright: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
   color: #fff;
-  font: bold 20px/1 ;
-  margin-bottom: 10px;
-  padding: 10px 0 12px 0;
+  font: bold 20px/1;
+	margin-left:-5px;
+  padding: 10px 0px;
   text-align: center;
-  text-shadow: 0px -1px 1px #1e2d4d;
-  width: 150px;
-  -webkit-background-clip: padding-box; 
-  position:relative;
-  top:-5px;
+  text-shadow: 0px 1px 1px #9aac22;
+  width: 75px;
+
 }
   input.punch:hover {
-    -webkit-box-shadow: inset 0 0px 20px 1px #87adff, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
-    box-shadow: inset 0 0px 20px 1px #87adff, 0px 1px 0 #1d2c4d, 0 6px 0px #1f3053, 0 8px 4px 1px #111111;
+    -webkit-box-shadow: inset 0 0px 20px 1px #9aac22;
+    box-shadow: inset 0 0px 20px 1px #9aac22;
     cursor: pointer; }
   input.punch:active {
-    -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111;
-    box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111; }
+    -webkit-box-shadow: inset 0 1px 10px 1px #9aac22;
+    box-shadow: inset 0 1px 10px 1px #9aac22; }
