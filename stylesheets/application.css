@@ -375,9 +375,6 @@ header {
   background-size: cover;
   border-bottom: 1px solid #2f4447;
   overflow: auto; }
-  header h1 {
-    margin: 0px;
-    padding: 0px; }
   header nav {
     background: rgba(50, 50, 50, 0.92);
     max-width: 500px;
@@ -388,12 +385,16 @@ header {
     color: #fff;
     box-shadow: 3px 3px 0px 0px white;
     -webkit-box-shadow: -3px -3px 0px 1px #768185; }
-    header nav h1 a.logo {
-      display: block;
-      margin: 0px auto;
-      max-width: 400px; }
-      header nav h1 a.logo img {
-        width: 100%; }
+    header nav h1 {
+      margin: 0;
+      padding: 0px; }
+      header nav h1 a.logo {
+        display: block;
+        margin: 0px auto;
+        max-width: 400px; }
+        header nav h1 a.logo img {
+          margin-top: 20px;
+          width: 100%; }
   header nav, header .mailForm {
     text-align: center; }
   header .mailForm {
