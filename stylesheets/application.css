@@ -368,11 +368,17 @@ li {
 ul {
   padding-left: 1.5em; }
 
+body {
+  background: url("/images/buffalo_usgs-edited.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
 header {
   min-width: 300px;
   min-height: 100%;
-  background: url("/images/buffalo_usgs-edited.jpg") no-repeat;
-  background-size: cover;
+  background: rgba(0, 0, 50, 0.3);
   border-bottom: 1px solid #2f4447;
   overflow: auto; }
   header nav {
