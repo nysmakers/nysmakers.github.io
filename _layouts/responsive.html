@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>NickelCityRuby</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="/stylesheets/responsive-nav.css" />
+    <link href="/stylesheets/bootstrap.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/stylesheets/styles.css" />
+    <!--<script src="/javascripts/responsive-nav.js"></script>
+    <script src="/javascripts/respond.js"></script>
+
+    <script text>
+      var navigation = responsiveNav("#nav", { // Selector: The ID of the wrapper
+      animate: true, // Boolean: Use CSS3 transitions, true or false
+      transition: 400, // Integer: Speed of the transition, in milliseconds
+      label: "Menu", // String: Label for the navigation toggle
+      insert: "after", // String: Insert the toggle before or after the navigation
+      customToggle: "", // Selector: Specify the ID of a custom toggle
+      openPos: "relative", // String: Position of the opened nav, relative or static
+      jsClass: "js", // String: 'JS enabled' class which is added to <html> el
+        debug: false, // Boolean: Log debug messages to console, true or false
+        init: function(){}, // Function: Init callback
+        open: function(){}, // Function: Open callback
+        close: function(){} // Function: Close callback
+        });
+      </script>-->
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Noto+Serif' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+    <nav id="nav">
+      <img src="/images/nav-icon.png" alt="ncrc logo" id="logo" />
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Info</a></li>
+      </ul>
+    </nav>
+
+    <section class="row-fluid" id="banner">
+      <h1 class="span8 offset2">Nickel City Ruby is a two day conference in beautiful downtown Buffalo, NY.</h1>
+    </section>
+
+    <div id="contentContainer">
+      {{ content }}
+    </div>
+
+    <script>
+      var navigation = responsiveNav("#nav");
+    </script>
+    <!--[if lte IE 9]><script src="respond.js"></script><![endif]-->
+  </body>
+</html>
