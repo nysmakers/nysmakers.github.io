@@ -206,22 +206,76 @@ section {
   }
 }
 
+@media screen and (max-width: 767px){
+  body section p {
+    padding:0px 20px;
+  }
+}
+
 section#banner {
-  background:url("/images/buffalo_usgs-edited.jpg") no-repeat top left;
+  background:url("/images/buffalo_usgs-blue.jpg") no-repeat top left;
   background-size: cover;
   z-index: 100;
   position:relative;
   top:70px;
-  height:500px;
+  height: 450px;
 
   h1 {
     text-align:center;
-    margin-top:100px;
   }
 }
 
-@media screen and (max-width: 767px){
-  body section p {
-    padding:0px 20px;
+#contentContainer {
+  ul {
+    list-style: none;
+
+    li {
+      display: inline-block;
+      width: 33%;
+      text-align: center;
+
+      img {
+        width: 127px;
+        border-radius: 10px;
+      }
+    }
+  }
+}
+
+#venue {
+  img {
+    border-radius: 10px;
+    width: 300px;
+    margin-right: 20px;
+    float: left;
+  }
+}
+
+#travel {
+  img {
+    border-radius: 10px;
+    width: 300px;
+    margin-left: 20px;
+    float: right;
+  }
+}
+
+footer {
+  text-align: center;
+  nav {
+    margin-bottom: 30px;
+    a {
+      display: inline-block;
+      margin-right: 5px;
+    }
+  }
+
+  .team {
+    p {
+      font-size: 12px;
+    }
+    li {
+      display: inline-block;
+    }
   }
 }

@@ -31,21 +31,39 @@
 
   <body>
     <nav id="nav">
-      <img src="/images/nav-icon.png" alt="ncrc logo" id="logo" />
       <ul>
         <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Info</a></li>
+        <li><a href="#">Speakers</a></li>
+        <li><a href="#">Register</a></li>
+        <li><a href="#">Schedule</a></li>
+        <li><a href="#">Venue</a></li>
+        <li><a href="#">Travel</a></li>
       </ul>
     </nav>
 
-    <section class="row-fluid" id="banner">
-      <h1 class="span8 offset2">Nickel City Ruby is a two day conference in beautiful downtown Buffalo, NY.</h1>
-    </section>
+    {{ content }}
 
-    <div id="contentContainer">
-      {{ content }}
-    </div>
+
+    <footer>
+      <nav>
+        <a href="http://twitter.com/nickelcityruby">@NickelCityRuby</a>
+        <a href="mailto:nick+nickelcityruby@quaran.to">Email the organizers</a>
+        <a href="https://rubygems.org/pages/about">Code of Conduct</a>
+        <a href="http://help.rubygems.org">Diversity Policy</a>
+      </nav>
+      <section class="team">
+        <p>Brought to you by <a href="http://www.meetup.com/Western-New-York-Ruby/">WNYRuby</a>:</p>
+        <ul>
+          <li><a href="http://twitter.com/1ofyourmeteors"><img src="http://api.twitter.com/1/users/profile_image?screen_name=1ofyourmeteors&size=bigger" /></a></li>
+          <li><a href="http://twitter.com/aquaranto"><img src="http://api.twitter.com/1/users/profile_image?screen_name=aquaranto&size=bigger" /></a></li>
+          <li><a href="http://twitter.com/aspleenic"><img src="http://api.twitter.com/1/users/profile_image?screen_name=aspleenic&size=bigger" /></a></li>
+          <li><a href="http://twitter.com/byllc"><img src="http://api.twitter.com/1/users/profile_image?screen_name=byllc&size=bigger" /></a></li>
+          <li><a href="http://twitter.com/jhsu"><img src="http://api.twitter.com/1/users/profile_image?screen_name=jhsu&size=bigger" /></a></li>
+          <li><a href="http://twitter.com/qrush"><img src="http://api.twitter.com/1/users/profile_image?screen_name=qrush&size=bigger" /></a></li>
+          <li><a href="http://twitter.com/robertromito"><img src="http://api.twitter.com/1/users/profile_image?screen_name=robertromito&size=bigger" /></a></li>
+        </ul>
+      </section>
+    </footer>
 
     <script>
       var navigation = responsiveNav("#nav");
