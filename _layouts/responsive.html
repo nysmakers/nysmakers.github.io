@@ -32,7 +32,7 @@
   <body>
     <nav id="nav">
       <ul>
-        <li><a href="#">Home</a></li>
+        <li><a href="/2013">Home</a></li>
         <li><a href="#">Speakers</a></li>
         <li><a href="#">Register</a></li>
         <li><a href="#">Schedule</a></li>
@@ -41,13 +41,18 @@
       </ul>
     </nav>
 
-    {{ content }}
+    <section class="row-fluid" id="banner">
+      <h1 class="span8 offset2"><img src="/images/ncr-logo.png" /></h1>
+    </section>
 
+    <div id="contentContainer">
+      {{ content }}
+    </div>
 
     <footer>
       <nav>
         <a href="http://twitter.com/nickelcityruby">@NickelCityRuby</a>
-        <a href="mailto:nick+nickelcityruby@quaran.to">Email the organizers</a>
+        <a href="nickelcityruby@gmail.com">Email the organizers</a>
         <a href="https://rubygems.org/pages/about">Code of Conduct</a>
         <a href="http://help.rubygems.org">Diversity Policy</a>
       </nav>
