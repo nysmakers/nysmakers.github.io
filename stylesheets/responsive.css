@@ -177,7 +177,10 @@ section {
 
 @media screen and (max-width: 767px) {
   body section p {
-    padding: 0px 20px; } }
+    padding: 0px 20px; }
+
+  #schedule li {
+    width: 100% !important; } }
 #banner {
   background: url("/images/buffalo_usgs-blue.jpg") no-repeat top left;
   background-size: cover;
@@ -199,7 +202,6 @@ section {
     display: inline-block; }
 
 #schedule li {
-  width: 33%;
   margin: 20px 0px;
   padding: 0px 0px 20px 0px;
   width: 33%;

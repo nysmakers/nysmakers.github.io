@@ -210,6 +210,10 @@ section {
   body section p {
     padding:0px 20px;
   }
+
+  #schedule li {
+    width: 100% !important;
+  }
 }
 
 #banner {
@@ -246,7 +250,6 @@ section {
 
 #schedule {
   li {
-    width: 33%;
     margin:20px 0px;
     padding:0px 0px 20px 0px;
     width: 33%;
@@ -303,6 +306,7 @@ section {
         &:hover {
           background: #eeeeee;
         }
+
       }
     }
   }
