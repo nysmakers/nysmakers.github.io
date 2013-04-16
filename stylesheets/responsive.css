@@ -254,3 +254,6 @@ footer {
     footer .thanks a {
       color: #aaa;
       text-decoration: underline; }
+
+#cfp p {
+  margin-bottom: 20px; }
