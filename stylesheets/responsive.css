@@ -182,10 +182,12 @@ section#banner {
   background: url("/images/buffalo_usgs-blue.jpg") no-repeat top left;
   background-size: cover;
   z-index: 100;
-  height: 450px;
   padding-top: 70px; }
   section#banner h1 {
     text-align: center; }
+  section#banner h2 {
+    color: #fff;
+    text-shadow: 1px 1px 1px black; }
 
 #contentContainer section {
   border-bottom: 1px dotted #efefef;
