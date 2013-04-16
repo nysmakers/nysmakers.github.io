@@ -34,7 +34,7 @@ body {
   color: #37302a;
   background: #fff;
   font: normal 100%/1.4 sans-serif;
-  font-family: 'Noto Serif', georgia, serif; }
+  font-family: "Noto Serif", georgia, serif; }
 
 #nav,
 #nav * {
@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
   text-shadow: 1px 1px 1px white; }
 
 h1, h2, h3, h4, h5, h6, nav {
-  font-family: 'Roboto Condensed', Helvetica, sans-serif; }
+  font-family: "Roboto Condensed", Helvetica, sans-serif; }
 
 #nav {
   position: fixed;
@@ -149,8 +149,7 @@ section {
 #banner {
   background: url("/images/buffalo_usgs-blue.jpg") no-repeat top left;
   background-size: cover;
-  z-index: 100;
-  padding-top: 70px; }
+  z-index: 100; }
   #banner h1 {
     text-align: center; }
   #banner h2 {
@@ -182,7 +181,7 @@ section {
   color: #fff;
   text-shadow: 1px 1px 1px black;
   text-decoration: none;
-  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  font-family: "Roboto Condensed", Helvetica, sans-serif;
   font-size: 30px;
   background-position: center; }
 
