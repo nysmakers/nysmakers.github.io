@@ -148,7 +148,7 @@ body {
  *************
  *************/
 body {
-  font-family: "Noto Serif", georgia, serif; }
+  font-family: 'Noto Serif', georgia, serif; }
 
 p {
   font-size: 1.3em;
@@ -159,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
   text-shadow: 1px 1px 1px white; }
 
 h1, h2, h3, h4, h5, h6, nav {
-  font-family: "Roboto Condensed", Helvetica, sans-serif; }
+  font-family: 'Roboto Condensed', Helvetica, sans-serif; }
 
 #nav {
   position: fixed;
@@ -193,9 +193,12 @@ section#banner {
 #contentContainer ul {
   list-style: none; }
   #contentContainer ul li {
+    margin: 20px 0px;
+    padding: 0px 0px 20px 0px;
     display: inline-block;
     width: 33%;
-    text-align: center; }
+    text-align: center;
+    background: #fafafa; }
 
 #speakers p {
   margin-bottom: 20px; }
@@ -207,7 +210,7 @@ section#banner {
   color: #fff;
   text-shadow: 1px 1px 1px black;
   text-decoration: none;
-  font-family: "Roboto Condensed", Helvetica, sans-serif;
+  font-family: 'Roboto Condensed', Helvetica, sans-serif;
   font-size: 30px;
   background-position: center; }
 
