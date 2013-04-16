@@ -14,9 +14,9 @@
 }
 
 .js #nav {
-  clip: rect(0 0 0 0);
+  /*clip: rect(0 0 0 0);*/
   max-height: 0;
-  position: absolute;
+  /*position: absolute;*/
   display: block;
   overflow: hidden;
   zoom: 1;
@@ -28,7 +28,7 @@
 
 @media screen and (min-width: 40em) {
   .js #nav {
-    position: relative;
+    /*position: relative;*/
     max-height: none;
   }
   #nav-toggle {

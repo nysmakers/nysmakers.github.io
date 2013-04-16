@@ -40,10 +40,11 @@ body {
 #nav * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  background: #5a666a; }
+  box-sizing: border-box; }
 
 #nav {
+  background: rgba(90, 102, 106, 0.9);
+  position: fixed;
   width: 100%;
   -webkit-box-shadow: 0px 2px 1px 2px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 2px 1px 2px rgba(0, 0, 0, 0.1); }
@@ -91,6 +92,7 @@ body {
   #nav ul ul a {
     display: none; } }
 #nav-toggle {
+  display: none;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -98,7 +100,6 @@ body {
   user-select: none;
   width: 70px;
   height: 55px;
-  float: right;
   text-indent: -9999px;
   overflow: hidden;
   background: #5a666a url("/images/hamburger.gif") no-repeat 50% 33%;
@@ -136,6 +137,9 @@ section {
   section h2 {
     text-align: center; }
 
+@media screen and (max-width: 40em) {
+  #nav-toggle {
+    display: block; } }
 @media screen and (max-width: 767px) {
   body section p {
     padding: 0px 20px; }
@@ -149,7 +153,8 @@ section {
 #banner {
   background: url("/images/buffalo_usgs-blue.jpg") no-repeat top left;
   background-size: cover;
-  z-index: 100; }
+  z-index: 100;
+  padding-top: 30px; }
   #banner h1 {
     text-align: center; }
   #banner h2 {
