@@ -203,6 +203,8 @@ section#banner {
   width: 33%;
   text-align: center;
   background: #f2f2f2; }
+#contentContainer section#schedule img {
+  margin-top: 20px; }
 
 #speakers p {
   margin-bottom: 20px; }
