@@ -139,7 +139,10 @@ section {
 
 @media screen and (max-width: 40em) {
   #nav-toggle {
-    display: block; } }
+    display: block; }
+
+  #nav {
+    position: relative !important; } }
 @media screen and (max-width: 767px) {
   body section p {
     padding: 0px 20px; }

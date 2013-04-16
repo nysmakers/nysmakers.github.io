@@ -162,6 +162,10 @@ section {
   #nav-toggle {
     display: block;
   }
+
+  #nav {
+    position: relative !important;
+  }
 }
 
 @media screen and (max-width: 767px){
