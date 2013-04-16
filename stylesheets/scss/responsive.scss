@@ -199,7 +199,7 @@ h1, h2, h3, h4, h5, h6, nav{
 }
 
 section {
-  margin-bottom:70px;
+  margin-bottom:50px;
 
   h2 {
     text-align:center;
@@ -216,9 +216,8 @@ section#banner {
   background:url("/images/buffalo_usgs-blue.jpg") no-repeat top left;
   background-size: cover;
   z-index: 100;
-  position:relative;
-  top:70px;
   height: 450px;
+	padding-top:70px;
 
   h1 {
     text-align:center;
@@ -226,6 +225,12 @@ section#banner {
 }
 
 #contentContainer {
+
+	section{
+		border-bottom:1px dotted #efefef;
+		padding-bottom:50px;
+	}
+	
   ul {
     list-style: none;
 
@@ -271,6 +276,10 @@ footer {
   }
 
   .team {
+		img{
+			border-radius:50%;
+			margin:10px 10px;
+		}
     p {
       font-size: 12px;
     }
