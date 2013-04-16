@@ -241,3 +241,10 @@ footer {
     font-size: 12px; }
   footer .team li {
     display: inline-block; }
+  footer .thanks {
+    font-size: 10px;
+    font-style: italic;
+    color: #aaa; }
+    footer .thanks a {
+      color: #aaa;
+      text-decoration: underline; }
