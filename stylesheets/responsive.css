@@ -141,7 +141,11 @@ section {
     padding: 0px 20px; }
 
   #schedule li {
-    width: 100% !important; } }
+    width: 100% !important; }
+
+  #travel ul li {
+    width: 100% !important;
+    margin: 1px 0px !important; } }
 #banner {
   background: url("/images/buffalo_usgs-blue.jpg") no-repeat top left;
   background-size: cover;
