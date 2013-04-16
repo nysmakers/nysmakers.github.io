@@ -225,12 +225,11 @@ section#banner {
 }
 
 #contentContainer {
+  section{
+    border-bottom:1px dotted #efefef;
+    padding-bottom:50px;
+  }
 
-	section{
-		border-bottom:1px dotted #efefef;
-		padding-bottom:50px;
-	}
-	
   ul {
     list-style: none;
 
@@ -238,12 +237,25 @@ section#banner {
       display: inline-block;
       width: 33%;
       text-align: center;
-
-      img {
-        width: 127px;
-        border-radius: 10px;
-      }
     }
+  }
+}
+
+#speakers {
+  p {
+    margin-bottom: 20px;
+  }
+  a {
+    display: inline-block;
+    width: 300px;
+    padding-bottom: 20px;
+    padding-top: 350px;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+    text-decoration: none;
+    font-family: 'Roboto Condensed', Helvetica, sans-serif;
+    font-size: 30px;
+    background-position: center;
   }
 }
 
@@ -276,10 +288,10 @@ footer {
   }
 
   .team {
-		img{
-			border-radius:50%;
-			margin:10px 10px;
-		}
+    img {
+      border-radius:50%;
+      margin:10px 10px;
+    }
     p {
       font-size: 12px;
     }

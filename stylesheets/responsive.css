@@ -148,7 +148,7 @@ body {
  *************
  *************/
 body {
-  font-family: 'Noto Serif', georgia, serif; }
+  font-family: "Noto Serif", georgia, serif; }
 
 p {
   font-size: 1.3em;
@@ -159,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
   text-shadow: 1px 1px 1px white; }
 
 h1, h2, h3, h4, h5, h6, nav {
-  font-family: 'Roboto Condensed', Helvetica, sans-serif; }
+  font-family: "Roboto Condensed", Helvetica, sans-serif; }
 
 #nav {
   position: fixed;
@@ -196,9 +196,20 @@ section#banner {
     display: inline-block;
     width: 33%;
     text-align: center; }
-    #contentContainer ul li img {
-      width: 127px;
-      border-radius: 10px; }
+
+#speakers p {
+  margin-bottom: 20px; }
+#speakers a {
+  display: inline-block;
+  width: 300px;
+  padding-bottom: 20px;
+  padding-top: 350px;
+  color: #fff;
+  text-shadow: 1px 1px 1px black;
+  text-decoration: none;
+  font-family: "Roboto Condensed", Helvetica, sans-serif;
+  font-size: 30px;
+  background-position: center; }
 
 #venue img {
   border-radius: 10px;
