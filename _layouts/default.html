@@ -1,43 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NickelCityRubyConf</title>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="/stylesheets/responsive-nav.css" />
+    <link href="/stylesheets/bootstrap.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/stylesheets/responsive.css" />
     <link rel="shortcut icon" type="image/png" href="/images/favicon.png" />
-    <link href="/stylesheets/application.css" type="text/css" rel="stylesheet" />
-    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400,300' rel='stylesheet' type='text/css'>
-    <script type="text/javascript" src="/javascripts/jquery-1.9.1.min.js"></script>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <h1>
-          <a class="logo" href="/" title="NickelCityRubyConf">
-            <img src="/images/ncr-logo-date.png" alt="NickelCityRuby" title="NickelCityRuby" />
-          </a>
-        </h1>
+    <script src="/javascripts/responsive-nav.js"></script>
+    <script src="/javascripts/respond.js"></script>
 
-        <section class="mailForm">
-          {{ content }}
-        </section>
-      </nav>
-    </header>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Noto+Serif' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+    {{ content }}
 
     <footer>
+      <section class="team">
+        <p>Brought to you by <a href="http://www.meetup.com/Western-New-York-Ruby/">WNYRuby</a>:</p>
+        <ul>
+          <li><a href="http://twitter.com/1ofyourmeteors"><img src="http://api.twitter.com/1/users/profile_image?screen_name=1ofyourmeteors&size=bigger" /></a></li>
+          <li><a href="http://twitter.com/aquaranto"><img src="http://api.twitter.com/1/users/profile_image?screen_name=aquaranto&size=bigger" /></a></li>
+          <li><a href="http://twitter.com/aspleenic"><img src="http://api.twitter.com/1/users/profile_image?screen_name=aspleenic&size=bigger" /></a></li>
+          <li><a href="http://twitter.com/byllc"><img src="http://api.twitter.com/1/users/profile_image?screen_name=byllc&size=bigger" /></a></li>
+          <li><a href="http://twitter.com/jhsu"><img src="http://api.twitter.com/1/users/profile_image?screen_name=jhsu&size=bigger" /></a></li>
+          <li><a href="http://twitter.com/qrush"><img src="http://api.twitter.com/1/users/profile_image?screen_name=qrush&size=bigger" /></a></li>
+          <li><a href="http://twitter.com/robertromito"><img src="http://api.twitter.com/1/users/profile_image?screen_name=robertromito&size=bigger" /></a></li>
+        </ul>
+      </section>
+      <nav>
+        <a href="http://twitter.com/nickelcityruby">@NickelCityRuby</a>
+        <a href="mailto:nickelcityruby@gmail.com">Contact</a>
+        <a href="http://lanyrd.com/2013/ncrc13">Lanyrd</a>
+        <a href="https://github.com/nickelcityruby/code-of-conduct/blob/master/code_of_conduct.md">Conduct</a>
+      </nav>
+      <section class="thanks">
+        Thanks to <a href="https://twitter.com/nb3004">Nicholas Barone</a> for lots of design help!
+      </section>
     </footer>
-    <script type="text/javascript">
-      var _gauges = _gauges || [];
-      (function() {
-        var t   = document.createElement('script');
-        t.type  = 'text/javascript';
-        t.async = true;
-        t.id    = 'gauges-tracker';
-        t.setAttribute('data-site-id', '514bcd1e613f5d34aa000057');
-        t.src = '//secure.gaug.es/track.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(t, s);
-      })();
-    </script>
+    <!--[if lte IE 9]><script src="respond.js"></script><![endif]-->
   </body>
 </html>
