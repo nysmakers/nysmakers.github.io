@@ -1,259 +1,40 @@
-body, div,
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, dl, dt, dd, ol, ul, li, hr,
-fieldset, form, label, legend, th, td,
-article, aside, figure, footer, header, hgroup, menu, nav, section,
-summary, hgroup {
-  margin: 0;
-  padding: 0;
-  border: 0; }
+/*
+Syntax error: Invalid CSS after "}": expected "}", was ""
+        on line 344 of stylesheets/scss/responsive.scss
 
-a:active,
-a:hover {
-  outline: 0; }
+339: #cfp {
+340:   p {
+341:     margin-bottom: 20px;
+342:   }
+343: }
 
-@-webkit-viewport {
-  width: device-width; }
-
-@-moz-viewport {
-  width: device-width; }
-
-@-ms-viewport {
-  width: device-width; }
-
-@-o-viewport {
-  width: device-width; }
-
-@viewport {
-  width: device-width; }
-
-body {
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-  color: #37302a;
-  background: #fff;
-  font: normal 100%/1.4 sans-serif;
-  font-family: "Noto Serif", georgia, serif; }
-
-#nav,
-#nav * {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  background: #5a666a; }
-
-#nav {
-  width: 100%;
-  -webkit-box-shadow: 0px 2px 1px 2px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 2px 1px 2px rgba(0, 0, 0, 0.1); }
-
-#nav,
-#nav ul {
-  list-style: none; }
-
-#nav li {
-  display: inline-block;
-  width: 100%; }
-
-@media screen and (min-width: 40em) {
-  #nav {
-    text-align: center; }
-
-  #nav li {
-    width: 15%;
-    *width: 14.9%;
-    /* IE7 Hack */
-    _width: 14%;
-    /* IE6 Hack */ } }
-#nav a {
-  display: block;
-  color: #fff;
-  text-decoration: none;
-  width: 100%;
-  border-bottom: 1px solid white;
-  padding: 0.7em 1em; }
-
-#nav a:hover {
-  background: #333; }
-
-@media screen and (min-width: 40em) {
-  #nav a {
-    margin: 0;
-    padding: 25px;
-    text-align: center;
-    border-bottom: 0; } }
-#nav ul ul a {
-  background: #5a666a;
-  padding-left: 2em; }
-
-@media screen and (min-width: 40em) {
-  #nav ul ul a {
-    display: none; } }
-#nav-toggle {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  width: 70px;
-  height: 55px;
-  float: right;
-  text-indent: -9999px;
-  overflow: hidden;
-  background: #5a666a url("/images/hamburger.gif") no-repeat 50% 33%;
-  width: 100%; }
-
-@media screen and (-webkit-min-device-pixel-ratio: 1.3), screen and (min--moz-device-pixel-ratio: 1.3), screen and (-o-min-device-pixel-ratio: 2 / 1), screen and (min-device-pixel-ratio: 1.3), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
-  #nav-toggle {
-    background-image: url("/images/hamburger-retina.gif");
-    -webkit-background-size: 100px 100px;
-    -moz-background-size: 100px 100px;
-    -o-background-size: 100px 100px;
-    background-size: 100px 100px; } }
-p {
-  font-size: 1.3em;
-  line-height: 1.8em; }
-
-h1, h2, h3, h4, h5, h6 {
-  padding: 20px 0px;
-  text-shadow: 1px 1px 1px white; }
-
-h1, h2, h3, h4, h5, h6, nav {
-  font-family: "Roboto Condensed", Helvetica, sans-serif; }
-
-#nav {
-  position: fixed;
-  z-index: 1000; }
-
-#logo {
-  max-height: 70px;
-  float: right;
-  padding-right: 20px; }
-
-section {
-  margin-bottom: 50px; }
-  section h2 {
-    text-align: center; }
-
-@media screen and (max-width: 767px) {
-  body section p {
-    padding: 0px 20px; }
-
-  #schedule li {
-    width: 100% !important; }
-
-  #travel ul li {
-    width: 100% !important;
-    margin: 1px 0px !important; } }
-#banner {
-  background: url("/images/buffalo_usgs-blue.jpg") no-repeat top left;
-  background-size: cover;
-  z-index: 100;
-  padding-top: 70px; }
-  #banner h1 {
-    text-align: center; }
-  #banner h2 {
-    color: #fff;
-    text-shadow: 1px 1px 1px black; }
-
-#contentContainer section {
-  border-bottom: 1px dotted #efefef;
-  padding-bottom: 50px; }
-#contentContainer ul {
-  list-style: none;
-  text-align: center; }
-  #contentContainer ul li {
-    display: inline-block; }
-
-#schedule li {
-  margin: 20px 0px;
-  padding: 0px 0px 20px 0px;
-  width: 33%;
-  background: #f2f2f2; }
-
-#speakers p {
-  margin-bottom: 20px; }
-#speakers a {
-  display: inline-block;
-  width: 300px;
-  padding-bottom: 20px;
-  padding-top: 360px;
-  color: #fff;
-  text-shadow: 1px 1px 1px black;
-  text-decoration: none;
-  font-family: "Roboto Condensed", Helvetica, sans-serif;
-  font-size: 30px;
-  background-position: center; }
-
-#venue .text-center, #travel .text-center, #schedule .text-center {
-  margin-bottom: 20px; }
-#venue img, #travel img, #schedule img {
-  width: 400px;
-  height: 400px;
-  margin-top: 10px; }
-
-#travel code {
-  font-size: 18px; }
-#travel ul {
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px; }
-  #travel ul li {
-    width: 49%;
-    margin: 5px 0px; }
-    #travel ul li a {
-      text-decoration: none;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      display: block;
-      background: #f2f2f2; }
-      #travel ul li a:hover {
-        background: #eeeeee; }
-
-.punch {
-  background: #bed428;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  margin-top: 20px;
-  display: inline-block;
-  padding: 10px 10px;
-  text-shadow: 0px 1px 1px #9aac22;
-  color: #fff;
-  font-family: "Roboto Condensed", Helvetica, sans-serif;
-  font-size: 30px;
-  text-decoration: none; }
-  .punch:hover {
-    color: #fff;
-    -webkit-box-shadow: inset 0 0px 20px 1px #9aac22;
-    box-shadow: inset 0 0px 20px 1px #9aac22;
-    text-decoration: none; }
-  .punch:active {
-    -webkit-box-shadow: inset 0 1px 10px 1px #9aac22;
-    box-shadow: inset 0 1px 10px 1px #9aac22; }
-
-footer {
-  text-align: center; }
-  footer nav {
-    margin-bottom: 30px; }
-    footer nav a {
-      display: inline-block;
-      margin-right: 5px; }
-  footer .team img {
-    border-radius: 50%;
-    margin: 10px 10px; }
-  footer .team p {
-    font-size: 12px; }
-  footer .team li {
-    display: inline-block; }
-  footer .thanks {
-    font-size: 10px;
-    font-style: italic;
-    color: #aaa; }
-    footer .thanks a {
-      color: #aaa;
-      text-decoration: underline; }
-
-#cfp p {
-  margin-bottom: 20px; }
+Backtrace:
+stylesheets/scss/responsive.scss:344
+/Users/nicholasbarone/.rvm/gems/ruby-1.9.3-p327/gems/sass-3.2.7/lib/sass/scss/parser.rb:1148:in `expected'
+/Users/nicholasbarone/.rvm/gems/ruby-1.9.3-p327/gems/sass-3.2.7/lib/sass/scss/parser.rb:1084:in `expected'
+/Users/nicholasbarone/.rvm/gems/ruby-1.9.3-p327/gems/sass-3.2.7/lib/sass/scss/parser.rb:1079:in `tok!'
+/Users/nicholasbarone/.rvm/gems/ruby-1.9.3-p327/gems/sass-3.2.7/lib/sass/scss/parser.rb:536:in `block'
+/Users/nicholasbarone/.rvm/gems/ruby-1.9.3-p327/gems/sass-3.2.7/lib/sass/scss/parser.rb:529:in `ruleset'
+/Users/nicholasbarone/.rvm/gems/ruby-1.9.3-p327/gems/sass-3.2.7/lib/sass/scss/parser.rb:553:in `block_child'
+/Users/nicholasbarone/.rvm/gems/ruby-1.9.3-p327/gems/sass-3.2.7/lib/sass/scss/parser.rb:546:in `block_contents'
+/Users/nicholasbarone/.rvm/gems/ruby-1.9.3-p327/gems/sass-3.2.7/lib/sass/scss/parser.rb:82:in `stylesheet'
+/Users/nicholasbarone/.rvm/gems/ruby-1.9.3-p327/gems/sass-3.2.7/lib/sass/scss/parser.rb:27:in `parse'
+/Users/nicholasbarone/.rvm/gems/ruby-1.9.3-p327/gems/sass-3.2.7/lib/sass/engine.rb:342:in `_to_tree'
+/Users/nicholasbarone/.rvm/gems/ruby-1.9.3-p327/gems/sass-3.2.7/lib/sass/engine.rb:315:in `_render'
+/Users/nicholasbarone/.rvm/gems/ruby-1.9.3-p327/gems/sass-3.2.7/lib/sass/engine.rb:262:in `render'
+/Users/nicholasbarone/.rvm/gems/ruby-1.9.3-p327/gems/sass-3.2.7/lib/sass/plugin/compiler.rb:341:in `update_stylesheet'
+/Users/nicholasbarone/.rvm/gems/ruby-1.9.3-p327/gems/sass-3.2.7/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+/Users/nicholasbarone/.rvm/gems/ruby-1.9.3-p327/gems/sass-3.2.7/lib/sass/plugin/compiler.rb:201:in `each'
+/Users/nicholasbarone/.rvm/gems/ruby-1.9.3-p327/gems/sass-3.2.7/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+/Users/nicholasbarone/.rvm/gems/ruby-1.9.3-p327/gems/sass-3.2.7/lib/sass/plugin/compiler.rb:299:in `block in watch'
+/Users/nicholasbarone/.rvm/gems/ruby-1.9.3-p327/gems/sass-3.2.7/vendor/listen/lib/listen/multi_listener.rb:108:in `call'
+/Users/nicholasbarone/.rvm/gems/ruby-1.9.3-p327/gems/sass-3.2.7/vendor/listen/lib/listen/multi_listener.rb:108:in `on_change'
+/Users/nicholasbarone/.rvm/gems/ruby-1.9.3-p327/gems/sass-3.2.7/vendor/listen/lib/listen/multi_listener.rb:117:in `block in initialize_adapter'
+/Users/nicholasbarone/.rvm/gems/ruby-1.9.3-p327/gems/sass-3.2.7/vendor/listen/lib/listen/adapters/polling.rb:56:in `call'
+/Users/nicholasbarone/.rvm/gems/ruby-1.9.3-p327/gems/sass-3.2.7/vendor/listen/lib/listen/adapters/polling.rb:56:in `poll'
+/Users/nicholasbarone/.rvm/gems/ruby-1.9.3-p327/gems/sass-3.2.7/vendor/listen/lib/listen/adapters/polling.rb:32:in `block in start'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 344 of stylesheets/scss/responsive.scss\A \A 339: #cfp {\A 340:   p {\A 341:     margin-bottom: 20px;\A 342:   }\A 343: }"; }

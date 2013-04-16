@@ -303,7 +303,7 @@ footer {
     margin-bottom: 30px;
     a {
       display: inline-block;
-      margin-right: 5px;
+      margin: 0px 25px;
     }
   }
 
@@ -331,6 +331,10 @@ footer {
     }
   }
 }
+
+.text-center {
+	text-align: center;
+	clear: both;
 
 #cfp {
   p {
