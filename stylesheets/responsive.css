@@ -81,7 +81,7 @@ body {
 @media screen and (min-width: 40em) {
   #nav a {
     margin: 0;
-    padding: 25px;
+    padding: 20px 25px;
     text-align: center;
     border-bottom: 0; } }
 #nav ul ul a {
@@ -157,7 +157,7 @@ section {
   background: url("/images/buffalo_usgs-blue.jpg") no-repeat top left;
   background-size: cover;
   z-index: 100;
-  padding-top: 30px; }
+  padding-top: 45px; }
   #banner h1 {
     text-align: center; }
   #banner h2 {
@@ -165,8 +165,8 @@ section {
     text-shadow: 1px 1px 1px black; }
 
 #contentContainer section {
-  border-bottom: 1px dotted #efefef;
-  padding-bottom: 50px; }
+  border-top: 1px dotted #efefef;
+  padding-top: 50px; }
 #contentContainer ul {
   list-style: none;
   text-align: center; }

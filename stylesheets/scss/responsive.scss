@@ -83,7 +83,7 @@ body {
 @media screen and (min-width: 40em) {
   #nav a {
     margin: 0;
-    padding: 25px;
+    padding: 20px 25px;
     text-align: center;
     border-bottom: 0;
   }
@@ -201,8 +201,8 @@ section {
 
 #contentContainer {
   section{
-    border-bottom:1px dotted #efefef;
-    padding-bottom:50px;
+    border-top: 1px dotted #efefef;
+    padding-top: 50px;
   }
 
   ul {
