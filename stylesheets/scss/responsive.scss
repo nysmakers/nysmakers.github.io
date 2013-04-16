@@ -279,6 +279,24 @@ section#banner {
   }
 }
 
+// this is terrible
+#travel {
+  ul {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    li {
+      width: 400px;
+      background:#f2f2f2;
+      margin:5px 0px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+
+}
+
 footer {
   text-align: center;
   nav {
