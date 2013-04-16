@@ -193,12 +193,16 @@ section#banner {
 #contentContainer ul {
   list-style: none; }
   #contentContainer ul li {
-    margin: 20px 0px;
-    padding: 0px 0px 20px 0px;
     display: inline-block;
     width: 33%;
-    text-align: center;
-    background: #fafafa; }
+    text-align: center; }
+#contentContainer section#schedule li {
+  margin: 20px 0px;
+  padding: 0px 0px 20px 0px;
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+  background: #f2f2f2; }
 
 #speakers p {
   margin-bottom: 20px; }
@@ -217,7 +221,7 @@ section#banner {
 #venue .text-center, #travel .text-center {
   margin-bottom: 20px; }
 #venue img, #travel img {
-  width: 300px;
+  width: 400px;
   height: 400px; }
 
 footer {
