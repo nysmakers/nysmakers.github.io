@@ -55,6 +55,10 @@ body {
 }
 
 @media screen and (min-width: 40em) {
+  #nav {
+    text-align: center;
+  }
+
   #nav li {
     width: 15%;
     *width: 14.9%; /* IE7 Hack */
