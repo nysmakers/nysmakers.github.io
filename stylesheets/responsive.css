@@ -203,7 +203,7 @@ section#banner {
   display: inline-block;
   width: 300px;
   padding-bottom: 20px;
-  padding-top: 350px;
+  padding-top: 360px;
   color: #fff;
   text-shadow: 1px 1px 1px black;
   text-decoration: none;
@@ -211,17 +211,11 @@ section#banner {
   font-size: 30px;
   background-position: center; }
 
-#venue img {
-  border-radius: 10px;
+#venue .text-center, #travel .text-center {
+  margin-bottom: 20px; }
+#venue img, #travel img {
   width: 300px;
-  margin-right: 20px;
-  float: left; }
-
-#travel img {
-  border-radius: 10px;
-  width: 300px;
-  margin-left: 20px;
-  float: right; }
+  height: 400px; }
 
 footer {
   text-align: center; }
