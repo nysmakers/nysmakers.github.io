@@ -238,7 +238,23 @@ section {
     text-decoration: none;
     font-family: 'Roboto Condensed', Helvetica, sans-serif;
     font-size: 30px;
-    background-position: center;
+    background-position-x: 50%;
+  }
+
+  #j3 {
+    background-image: url('/images/speakers/j3.jpg');
+  }
+
+  #sara {
+    background-image: url('/images/speakers/sara.jpg');
+  }
+
+  #holman {
+    background-image: url('/images/speakers/holman.png');
+  }
+
+  #neal {
+    background-image: url('/images/speakers/nealsales.jpg');
   }
 }
 

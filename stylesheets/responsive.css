@@ -191,7 +191,15 @@ section {
   text-decoration: none;
   font-family: "Roboto Condensed", Helvetica, sans-serif;
   font-size: 30px;
-  background-position: center; }
+  background-position-x: 50%; }
+#speakers #j3 {
+  background-image: url("/images/speakers/j3.jpg"); }
+#speakers #sara {
+  background-image: url("/images/speakers/sara.jpg"); }
+#speakers #holman {
+  background-image: url("/images/speakers/holman.png"); }
+#speakers #neal {
+  background-image: url("/images/speakers/nealsales.jpg"); }
 
 #venue .text-center, #travel .text-center, #schedule .text-center {
   margin-bottom: 20px; }
