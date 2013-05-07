@@ -193,13 +193,17 @@ section {
   font-size: 30px;
   background-position-x: 50%; }
 #speakers #j3 {
-  background-image: url("/images/speakers/j3.jpg"); }
+  background-image: url("/images/speakers/j3.jpg");
+  background-position-y: 35%; }
 #speakers #sara {
-  background-image: url("/images/speakers/sara.jpg"); }
+  background-image: url("/images/speakers/sara.jpg");
+  background-position-y: 20%; }
 #speakers #holman {
-  background-image: url("/images/speakers/holman.png"); }
+  background-image: url("/images/speakers/holman.png");
+  background-position-y: 80%; }
 #speakers #neal {
-  background-image: url("/images/speakers/nealsales.jpg"); }
+  background-image: url("/images/speakers/nealsales.jpg");
+  background-position-y: 35%; }
 
 #venue .text-center, #travel .text-center, #schedule .text-center {
   margin-bottom: 20px; }
