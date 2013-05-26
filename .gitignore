@@ -3,3 +3,5 @@
 .isolate
 /_site/*
 .sass-cache/
+stylesheets/responsive.css
+javascripts/application.js
