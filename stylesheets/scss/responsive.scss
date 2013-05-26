@@ -329,7 +329,20 @@ section {
 }
 
 footer {
+  border-top: 1px solid #bbb;
+  padding-top: 1em;
   text-align: center;
+  overflow: auto;
+
+  background: #e2e2e2;
+  background: -moz-linear-gradient(top,  #e2e2e2 0%, #ffffff 49%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e2e2e2), color-stop(49%,#ffffff));
+  background: -webkit-linear-gradient(top,  #e2e2e2 0%,#ffffff 49%);
+  background: -o-linear-gradient(top,  #e2e2e2 0%,#ffffff 49%);
+  background: -ms-linear-gradient(top,  #e2e2e2 0%,#ffffff 49%);
+  background: linear-gradient(to bottom,  #e2e2e2 0%,#ffffff 49%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#ffffff',GradientType=0 );
+
   nav {
     margin-bottom: 30px;
     a {
@@ -340,6 +353,7 @@ footer {
 
   .team {
     img {
+      border: 2px solid #fff;
       border-radius:50%;
       margin:10px 10px;
     }
