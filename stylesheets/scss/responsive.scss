@@ -396,12 +396,18 @@ footer {
   text-align: center;
   img {
     padding: 1em;
+    &.square {
+      max-height: 140px;
+    }
   }
   @media (max-width: 600px) {
     img {
       display: block;
       margin: 0 auto;
       width: 80%;
+      &.square {
+        width: auto;
+      }
     }
   }
 }

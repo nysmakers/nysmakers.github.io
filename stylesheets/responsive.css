@@ -300,8 +300,12 @@ footer {
     border: 0; }
   #sponsors img {
     padding: 1em; }
+    #sponsors img.square {
+      max-height: 140px; }
   @media (max-width: 600px) {
     #sponsors img {
       display: block;
       margin: 0 auto;
-      width: 80%; } }
+      width: 80%; }
+      #sponsors img.square {
+        width: auto; } }
