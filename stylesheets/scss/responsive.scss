@@ -395,24 +395,39 @@ footer {
 }
 
 #sponsors {
-  a {
-    text-decoration: none;
-    border: 0;
-  }
   text-align: center;
-  img {
-    padding: 1em;
-    &.square {
-      max-height: 140px;
+
+  ul {
+
+    li {
+      text-align: center;
+      display: inline-block;
+
+      a {
+        text-decoration: none;
+        border: 0;
+        display: block;
+      }
     }
   }
-  @media (max-width: 600px) {
-    img {
-      display: block;
-      margin: 0 auto;
-      width: 80%;
-      &.square {
-        width: auto;
+
+  .gold {
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+    li {
+      max-width: 80%;
+    }
+  }
+
+  .silver {
+    margin-bottom: 40px;
+
+    li {
+      max-width: 17%;
+      margin: 0 20px;
+      img {
+        max-height: 75px;
       }
     }
   }

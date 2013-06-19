@@ -300,17 +300,22 @@ footer {
 
 #sponsors {
   text-align: center; }
-  #sponsors a {
-    text-decoration: none;
-    border: 0; }
-  #sponsors img {
-    padding: 1em; }
-    #sponsors img.square {
-      max-height: 140px; }
-  @media (max-width: 600px) {
-    #sponsors img {
-      display: block;
-      margin: 0 auto;
-      width: 80%; }
-      #sponsors img.square {
-        width: auto; } }
+  #sponsors ul li {
+    text-align: center;
+    display: inline-block; }
+    #sponsors ul li a {
+      text-decoration: none;
+      border: 0;
+      display: block; }
+  #sponsors .gold {
+    margin-top: 40px;
+    margin-bottom: 20px; }
+    #sponsors .gold li {
+      max-width: 80%; }
+  #sponsors .silver {
+    margin-bottom: 40px; }
+    #sponsors .silver li {
+      max-width: 17%;
+      margin: 0 20px; }
+      #sponsors .silver li img {
+        max-height: 75px; }
