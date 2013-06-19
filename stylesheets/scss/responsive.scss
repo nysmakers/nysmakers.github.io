@@ -352,16 +352,22 @@ footer {
   }
 
   .team {
-    img {
-      border: 2px solid #fff;
-      border-radius:50%;
-      margin:10px 10px;
-    }
     p {
       font-size: 12px;
     }
     li {
       display: inline-block;
+
+      a {
+        width: 73px;
+        height: 73px;
+        display: inline-block;
+        border: 2px solid #fff;
+        border-radius:50%;
+        margin:10px 10px;
+        background-size: cover;
+        background-position: center;
+      }
     }
   }
 
