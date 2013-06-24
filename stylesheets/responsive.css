@@ -34,7 +34,7 @@ body {
   color: #37302a;
   background: #fff;
   font: normal 100%/1.4 sans-serif;
-  font-family: "Noto Serif", georgia, serif; }
+  font-family: 'Noto Serif', georgia, serif; }
 
 #nav,
 #nav * {
@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
   text-shadow: 1px 1px 1px white; }
 
 h1, h2, h3, h4, h5, h6, nav {
-  font-family: "Roboto Condensed", Helvetica, sans-serif; }
+  font-family: 'Roboto Condensed', Helvetica, sans-serif; }
 
 #nav {
   position: fixed;
@@ -189,7 +189,7 @@ section {
   color: #fff;
   text-shadow: 1px 1px 1px black;
   text-decoration: none;
-  font-family: "Roboto Condensed", Helvetica, sans-serif;
+  font-family: 'Roboto Condensed', Helvetica, sans-serif;
   font-size: 30px;
   background-position-x: 50%; }
 #speakers #j3 {
@@ -207,19 +207,20 @@ section {
 #speakers #speaker-list {
   margin: 0 auto;
   overflow: auto;
-  width: 60%; }
+  width: 750px; }
 #speakers .speaker {
-  width: 50%;
-  margin-bottom: 20px;
+  width: 250px;
+  margin-bottom: 40px;
   float: left; }
   #speakers .speaker .speaker-avatar {
-    float: left;
-    height: 65px;
-    width: 65px;
-    background: #efefef;
-    border-radius: 100%;
-    margin-right: 20px; }
+    width: 100%;
+    height: 250px;
+    overflow: hidden; }
+  #speakers .speaker img {
+    width: 100%;
+    max-width: none; }
   #speakers .speaker .speaker-name {
+    margin-left: 15px;
     margin-top: 10px; }
 
 #venue .text-center, #travel .text-center, #schedule .text-center {
