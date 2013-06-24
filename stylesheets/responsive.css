@@ -223,6 +223,15 @@ section {
     margin-left: 15px;
     margin-top: 10px; }
 
+@media screen and (max-width: 780px) {
+  #speakers #speaker-list {
+    width: 100%; }
+    #speakers #speaker-list .speaker {
+      width: 100%;
+      max-width: 250px;
+      margin: 0 auto;
+      float: none;
+      display: block; } }
 #venue .text-center, #travel .text-center, #schedule .text-center {
   margin-bottom: 20px; }
 #venue img, #travel img, #schedule img {

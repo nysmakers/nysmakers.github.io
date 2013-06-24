@@ -290,6 +290,24 @@ section {
   }
 }
 
+@media screen and (max-width: 780px) {
+  #speakers {
+    #speaker-list {
+
+      width: 100%;
+
+      .speaker {
+        width: 100%;
+        max-width: 250px;
+
+        margin: 0 auto;
+        float: none;
+        display: block;
+      }
+    }
+  }
+}
+
 #venue, #travel, #schedule {
   .text-center {
     margin-bottom: 20px;
