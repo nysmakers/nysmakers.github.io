@@ -260,6 +260,31 @@ section {
     background-image: url('/images/speakers/nealsales.jpg');
     background-position-y: 35%;
   }
+
+  #speaker-list {
+    margin: 0 auto;
+    overflow: auto;
+    width: 60%
+  }
+
+  .speaker {
+    width: 50%;
+    margin-bottom: 20px;
+    float: left;
+
+    .speaker-avatar {
+      float: left;
+      height: 65px;
+      width: 65px;
+      background: #efefef;
+      border-radius: 100%;
+      margin-right: 20px;
+    }
+
+    .speaker-name {
+      margin-top: 10px;
+    }
+  }
 }
 
 #venue, #travel, #schedule {
