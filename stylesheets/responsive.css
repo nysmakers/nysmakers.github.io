@@ -240,6 +240,27 @@ section {
 #speakers #rachelober {
   background-image: url("/images/speakers/rachelober.jpg");
   background-position-y: 35%; }
+#speakers #juliepagano {
+  background-image: url("/images/speakers/juliepagano.jpg");
+  background-position-y: 35%; }
+#speakers #mark_menard {
+  background-image: url("/images/speakers/mark_menard.jpg");
+  background-position-y: 35%; }
+#speakers #jeff_hsu {
+  background-image: url("/images/speakers/jeff_hsu.jpg");
+  background-position-y: 35%; }
+#speakers #greggyb {
+  background-image: url("/images/speakers/greggyb.jpg");
+  background-position-y: 72%; }
+#speakers #zzak {
+  background-image: url("/images/speakers/zzak.jpg");
+  background-position-y: 35%; }
+#speakers #austin_seraphin {
+  background-image: url("/images/speakers/austin_seraphin.jpg");
+  background-position-y: 35%; }
+#speakers #katie {
+  background-image: url("/images/speakers/katie.jpg");
+  background-position-y: 35%; }
 
 @media screen and (max-width: 780px) {
   #speakers #talks td:last-child {
