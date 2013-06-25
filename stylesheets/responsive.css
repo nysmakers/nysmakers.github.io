@@ -208,12 +208,11 @@ section {
     display: inline-block;
     margin-bottom: 25px; }
   #speakers #talks td:last-child {
-    vertical-align: top;
+    vertical-align: middle;
     font-size: 39px;
     -webkit-transform: perspective(600px) rotateY(10deg);
     font-family: 'Roboto Condensed', Helvetica, sans-serif;
     padding-left: 30px;
-    padding-top: 38px;
     width: 300px;
     text-align: left;
     line-height: 41px; }
