@@ -228,17 +228,56 @@ section {
   p {
     margin-bottom: 20px;
   }
+
   a {
     display: inline-block;
-    width: 300px;
-    padding-bottom: 20px;
-    padding-top: 360px;
     color: #fff;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
     text-decoration: none;
     font-family: 'Roboto Condensed', Helvetica, sans-serif;
-    font-size: 30px;
     background-position-x: 50%;
+    padding-bottom: 20px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  #keynotes {
+    a {
+      padding-top: 360px;
+      width: 300px;
+      font-size: 30px;
+    }
+    margin-bottom: 20px;
+  }
+
+  #talks {
+    margin-top: 20px;
+
+    a {
+      padding-top: 195px;
+      width: 187.5px;
+      font-size: 25px;
+      -webkit-transform: perspective( 600px ) rotateY( -10deg )
+    }
+
+    tr {
+      display: inline-block;
+      margin-bottom: 25px;
+    }
+
+    td:last-child {
+      vertical-align: top;
+      font-size: 39px;
+      -webkit-transform: perspective(600px) rotateY(10deg);
+      font-family: 'Roboto Condensed', Helvetica, sans-serif;
+      padding-left: 30px;
+      padding-top: 38px;
+      width: 300px;
+      text-align: left;
+      line-height: 41px;
+    }
   }
 
   #j3 {
@@ -261,49 +300,34 @@ section {
     background-position-y: 35%;
   }
 
-  #speaker-list {
-    margin: 0 auto;
-    overflow: auto;
-    width: 750px;
+  #bantik {
+    background-image: url('/images/speakers/bantik.jpg');
+    background-position-y: 35%;
   }
 
-  .speaker {
-    width: 250px;
-    margin-bottom: 40px;
-    float: left;
+  #bendymatt {
+    background-image: url('/images/speakers/bendymatt.jpg');
+    background-position-y: 35%;
+  }
 
-    .speaker-avatar {
-      width: 100%;
-      height: 250px;
-      overflow: hidden;
-    }
+  #samkottler {
+    background-image: url('/images/speakers/samkottler.jpg');
+    background-position-y: 35%;
+  }
 
-    img {
-      width: 100%;
-      max-width: none;
-    }
-
-    .speaker-name {
-      margin-left: 15px;
-      margin-top: 10px;
-    }
+  #rachelober {
+    background-image: url('/images/speakers/rachelober.jpg');
+    background-position-y: 35%;
   }
 }
 
 @media screen and (max-width: 780px) {
-  #speakers {
-    #speaker-list {
-
-      width: 100%;
-
-      .speaker {
-        width: 100%;
-        max-width: 250px;
-
-        margin: 0 auto;
-        float: none;
-        display: block;
-      }
+  #speakers #talks {
+    td:last-child {
+      -webkit-transform: none !important;
+      line-height: inherit !important;
+      font-size: 25px !important;
+      width: 150px;
     }
   }
 }
