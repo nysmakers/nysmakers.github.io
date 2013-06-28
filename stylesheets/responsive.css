@@ -365,7 +365,8 @@ footer {
   text-align: center; }
   #sponsors ul li {
     text-align: center;
-    display: inline-block; }
+    display: inline-block;
+    margin-bottom: 20px; }
     #sponsors ul li a {
       text-decoration: none;
       border: 0;
@@ -379,6 +380,7 @@ footer {
     margin-bottom: 40px; }
     #sponsors .silver li {
       max-width: 17%;
-      margin: 0 20px; }
+      margin-left: 20px;
+      margin-right: 20px; }
       #sponsors .silver li img {
         max-height: 75px; }
