@@ -192,23 +192,23 @@ section {
 #schedule p {
   font-style: italic;
   font-size: 14px; }
-#schedule #fullschedule {
+#schedule .fullschedule {
   border-left: 5px solid #ececec;
   margin-top: 30px;
   margin-left: 30px;
   text-align: left; }
   @media screen and (max-width: 780px) {
-    #schedule #fullschedule {
+    #schedule .fullschedule {
       border-left: none;
       margin-left: 0; } }
-  #schedule #fullschedule .slot {
+  #schedule .fullschedule .slot {
     position: relative;
     padding-left: 60px;
     margin-bottom: 50px; }
     @media screen and (max-width: 780px) {
-      #schedule #fullschedule .slot {
+      #schedule .fullschedule .slot {
         padding-left: 10px; } }
-    #schedule #fullschedule .slot .time {
+    #schedule .fullschedule .slot .time {
       text-align: center;
       position: absolute;
       left: -50px;
@@ -219,16 +219,16 @@ section {
       transform: perspective(600px) rotate(-5deg);
       -webkit-transform: perspective(600px) rotate(-5deg); }
       @media screen and (max-width: 780px) {
-        #schedule #fullschedule .slot .time {
+        #schedule .fullschedule .slot .time {
           transform: none;
           -webkit-transform: none;
           position: static;
           display: block; } }
-    #schedule #fullschedule .slot h2, #schedule #fullschedule .slot p {
+    #schedule .fullschedule .slot h2, #schedule .fullschedule .slot p {
       text-align: left; }
-    #schedule #fullschedule .slot h2 {
+    #schedule .fullschedule .slot h2 {
       padding: 0; }
-    #schedule #fullschedule .slot p {
+    #schedule .fullschedule .slot p {
       padding: 0; }
 
 #speakers p {
