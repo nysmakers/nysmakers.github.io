@@ -173,11 +173,25 @@ section {
   #contentContainer ul li {
     display: inline-block; }
 
+#schedule ul {
+  margin-top: 10px; }
 #schedule li {
-  margin: 20px 0px;
   padding: 0px 0px 20px 0px;
-  width: 33%;
-  background: #f2f2f2; }
+  width: 60%;
+  border-top: 1px dotted #bbbbbb; }
+#schedule .intro {
+  font-style: normal; }
+#schedule h2 {
+  padding-bottom: 5px; }
+#schedule h3 {
+  padding-bottom: 10px; }
+#schedule h4 {
+  padding-top: 0;
+  padding-bottom: 13px;
+  font-size: 40px; }
+#schedule p {
+  font-style: italic;
+  font-size: 14px; }
 
 #speakers p {
   margin-bottom: 20px; }
@@ -268,9 +282,9 @@ section {
     line-height: inherit !important;
     font-size: 25px !important;
     width: 150px; } }
-#venue .text-center, #travel .text-center, #schedule .text-center {
+#venue .text-center, #travel .text-center {
   margin-bottom: 20px; }
-#venue img, #travel img, #schedule img {
+#venue img, #travel img {
   width: 400px;
   height: 400px;
   margin-top: 10px; }

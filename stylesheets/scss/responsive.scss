@@ -216,11 +216,38 @@ section {
 }
 
 #schedule {
+  ul {
+    margin-top: 10px;
+  }
+
   li {
-    margin:20px 0px;
     padding:0px 0px 20px 0px;
-    width: 33%;
-    background:#f2f2f2;
+    width: 60%;
+    //background:#f2f2f2;
+    border-top: 1px dotted #BBB;
+  }
+
+  .intro {
+    font-style: normal;
+  }
+
+  h2 {
+    padding-bottom: 5px;
+  }
+
+  h3 {
+    padding-bottom: 10px;
+  }
+
+  h4 {
+    padding-top: 0;
+    padding-bottom: 13px;
+    font-size: 40px;
+  }
+
+  p {
+    font-style: italic;
+    font-size: 14px;
   }
 }
 
@@ -366,7 +393,7 @@ section {
   }
 }
 
-#venue, #travel, #schedule {
+#venue, #travel {
   .text-center {
     margin-bottom: 20px;
   }
