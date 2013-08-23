@@ -192,6 +192,20 @@ section {
 #schedule p {
   font-style: italic;
   font-size: 14px; }
+#schedule table {
+  margin: 20px auto; }
+  #schedule table tr {
+    padding: 10px 0; }
+  #schedule table td {
+    text-align: right;
+    padding: 30px 5px 30px 5px; }
+    #schedule table td span {
+      display: block;
+      font-style: italic;
+      font-size: 14px; }
+  #schedule table td:last-child {
+    text-align: left;
+    border-left: 2px solid #dddddd; }
 
 #speakers p {
   margin-bottom: 20px; }

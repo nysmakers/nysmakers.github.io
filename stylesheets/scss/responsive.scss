@@ -249,6 +249,30 @@ section {
     font-style: italic;
     font-size: 14px;
   }
+
+  table {
+    margin: 20px auto;
+
+    tr {
+      padding: 10px 0;
+    }
+
+    td {
+      text-align: right;
+      padding: 30px 5px 30px 5px;
+
+      span {
+        display: block;
+        font-style: italic;
+        font-size: 14px;
+      }
+    }
+
+    td:last-child {
+      text-align: left;
+      border-left: 2px solid #ddd;
+    }
+  }
 }
 
 #speakers {
