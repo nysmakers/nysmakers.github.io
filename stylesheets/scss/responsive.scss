@@ -188,6 +188,7 @@ section {
   background-size: cover;
   z-index: 100;
   padding-top: 45px;
+  margin-bottom: 0;
 
   h1 {
     text-align:center;
@@ -202,7 +203,7 @@ section {
 #contentContainer {
   section{
     border-top: 1px dotted #efefef;
-    padding-top: 50px;
+    padding-top: 30px;
   }
 
   ul {
