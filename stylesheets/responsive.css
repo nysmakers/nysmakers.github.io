@@ -199,7 +199,8 @@ section {
   text-align: left; }
   @media screen and (max-width: 780px) {
     #schedule #fullschedule {
-      border-left: none; } }
+      border-left: none;
+      margin-left: 0; } }
   #schedule #fullschedule .slot {
     position: relative;
     padding-left: 60px;
@@ -219,9 +220,10 @@ section {
       -webkit-transform: perspective(600px) rotate(-5deg); }
       @media screen and (max-width: 780px) {
         #schedule #fullschedule .slot .time {
-          position: relative;
-          display: block;
-          margin: 0 auto 10px; } }
+          transform: none;
+          -webkit-transform: none;
+          position: static;
+          display: block; } }
     #schedule #fullschedule .slot h2, #schedule #fullschedule .slot p {
       text-align: left; }
     #schedule #fullschedule .slot h2 {
