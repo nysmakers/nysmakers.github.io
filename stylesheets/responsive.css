@@ -34,7 +34,7 @@ body {
   color: #37302a;
   background: #fff;
   font: normal 100%/1.4 sans-serif;
-  font-family: 'Noto Serif', georgia, serif; }
+  font-family: "Noto Serif", georgia, serif; }
 
 #nav,
 #nav * {
@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
   text-shadow: 1px 1px 1px white; }
 
 h1, h2, h3, h4, h5, h6, nav {
-  font-family: 'Roboto Condensed', Helvetica, sans-serif; }
+  font-family: "Roboto Condensed", Helvetica, sans-serif; }
 
 #nav {
   position: fixed;
@@ -178,7 +178,7 @@ section {
 #schedule li {
   padding: 0px 0px 20px 0px;
   width: 60%;
-  border-top: 1px dotted #BBB; }
+  border-top: 1px dotted #bbbbbb; }
 #schedule .intro {
   font-style: normal; }
 #schedule h2 {
@@ -201,20 +201,24 @@ section {
     #schedule .fullschedule {
       border-left: none;
       margin-left: 0; } }
+  #schedule .fullschedule .break h2 {
+    font-size: 24px;
+    font-style: italic; }
   #schedule .fullschedule .slot {
     position: relative;
     padding-left: 60px;
     margin-bottom: 50px; }
     @media screen and (max-width: 780px) {
       #schedule .fullschedule .slot {
-        padding-left: 10px; } }
+        padding-left: 10px;
+        margin-bottom: 20px; } }
     #schedule .fullschedule .slot .time {
       text-align: center;
       position: absolute;
       left: -50px;
       width: 70px;
       padding: 6px;
-      border: 4px solid #ccc;
+      border: 4px solid #cccccc;
       background-color: #ececec;
       transform: perspective(600px) rotate(-5deg);
       -webkit-transform: perspective(600px) rotate(-5deg); }
@@ -227,6 +231,7 @@ section {
     #schedule .fullschedule .slot h2, #schedule .fullschedule .slot p {
       text-align: left; }
     #schedule .fullschedule .slot h2 {
+      font-size: 28px;
       padding: 0; }
     #schedule .fullschedule .slot p {
       padding: 0; }
@@ -238,7 +243,7 @@ section {
   color: #fff;
   text-shadow: 1px 1px 1px black;
   text-decoration: none;
-  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  font-family: "Roboto Condensed", Helvetica, sans-serif;
   background-position-x: 50%;
   padding-bottom: 20px; }
   #speakers a:hover {
@@ -263,7 +268,7 @@ section {
     vertical-align: middle;
     font-size: 39px;
     -webkit-transform: perspective(600px) rotateY(10deg);
-    font-family: 'Roboto Condensed', Helvetica, sans-serif;
+    font-family: "Roboto Condensed", Helvetica, sans-serif;
     padding-left: 30px;
     width: 300px;
     text-align: left;
@@ -368,7 +373,7 @@ section {
     box-shadow: inset 0 1px 10px 1px #9aac22; }
 
 footer {
-  border-top: 1px solid #bbb;
+  border-top: 1px solid #bbbbbb;
   padding-top: 1em;
   text-align: center;
   overflow: auto;
@@ -393,7 +398,7 @@ footer {
       width: 73px;
       height: 73px;
       display: inline-block;
-      border: 2px solid #fff;
+      border: 2px solid white;
       border-radius: 50%;
       margin: 10px 10px;
       background-size: cover;
