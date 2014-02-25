@@ -15,7 +15,9 @@ Is open until July 3rd, 2014. [Submit your talk here!](https://nickelcityruby.wu
 
 Check out [last year's schedule](http://nickelcityruby.com/2013/#schedule) to see what you missed.
 
+<p class="videos">
 Here's two of our favorite talks from last year:
+</p>
 
 <object width="450" height="259" class="first-video"><param name="movie" value="//www.youtube.com/v/MqYXFWAzgBQ?hl=en_US&amp;version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube.com/v/MqYXFWAzgBQ?hl=en_US&amp;version=3" type="application/x-shockwave-flash" width="450" height="259" allowscriptaccess="always" allowfullscreen="true"></embed></object>
 

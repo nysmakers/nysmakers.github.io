@@ -45,7 +45,7 @@ h1 {
   font-size: 70px;
   background: url("/images/flag.png") no-repeat top center;
   padding-top: 475px;
-  background-size: 50%; }
+  background-size: 500px; }
 
 h2 {
   margin-top: 30px;
@@ -66,3 +66,12 @@ p {
 a, a:visited {
   color: #002673;
   text-decoration: underline; }
+
+@media screen and (max-width: 767px) {
+  h1 {
+    padding-top: 250px;
+    background-size: 250px;
+    font-size: 40px; }
+
+  .videos, object {
+    display: none; } }
