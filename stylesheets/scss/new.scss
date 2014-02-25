@@ -62,3 +62,8 @@ object {
 p {
   font-size: 20px;
 }
+
+a, a:visited {
+  color: rgba(0, 38, 115, 1);
+  text-decoration: underline;
+}
