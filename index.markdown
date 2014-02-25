@@ -29,4 +29,4 @@ All proposals, speakers, and attendees are expected to follow our [Code of Condu
 
 ## Contact
 
-NickelCityRuby is brought to you by [WNYRuby](http://www.meetup.com/Western-New-York-Ruby/). Have a question? [Email us.](nickelcityruby@gmail.com)
+NickelCityRuby is brought to you by [WNYRuby](http://www.meetup.com/Western-New-York-Ruby/). Have a question? Ask via [email](nickelcityruby@gmail.com), [twitter](http://twitter.com/nickelcityruby), or [facebook](http://facebook.com/nickelcityruby).
