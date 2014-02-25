@@ -32,7 +32,7 @@ body {
   -ms-text-size-adjust: 100%;
   text-size-adjust: 100%;
   color: #37302a;
-  background: #fff;
+  background: #f3f7ff url("/images/square_bg.png");
   font: normal 100%/1.4 sans-serif;
   font-family: 'Exo 2', Helvetica, Arial, sans-serif;
   max-width: 960px;
