@@ -131,7 +131,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6{
-  padding:20px 0px;
+  padding-bottom:20px 0px;
   text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
 }
 
@@ -184,19 +184,26 @@ section {
 }
 
 #banner {
+  background: url("/images/flag_white.png") no-repeat;
   background-color: rgba(0, 32, 108, 1);
   background-size: cover;
+  background-position: 50% 150px;
+  height: 525px;
   z-index: 100;
   padding-top: 45px;
   margin-bottom: 0;
 
-  h1 {
-    text-align:center;
-  }
-
-  h2 {
+  a {
+    margin-top: 50px;
+    display: block;
     color: #fff;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+    text-decoration: none;
+    font-size: 60px
+  }
+
+  h1 {
+    text-align:center;
   }
 }
 
@@ -409,7 +416,7 @@ section {
   }
 }
 
-#venue, #travel {
+#register, #venue, #travel {
   .text-center {
     margin-bottom: 20px;
   }
@@ -455,6 +462,13 @@ section {
 
       }
     }
+  }
+}
+
+#register {
+  .intro {
+    font-size: 90%;
+    margin-bottom: 1em;
   }
 }
 

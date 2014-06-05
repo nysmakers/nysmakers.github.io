@@ -112,7 +112,7 @@ p {
   line-height: 1.8em; }
 
 h1, h2, h3, h4, h5, h6 {
-  padding: 20px 0px;
+  padding-bottom: 20px 0px;
   text-shadow: 1px 1px 1px white; }
 
 h1, h2, h3, h4, h5, h6, nav {
@@ -149,16 +149,23 @@ section {
     width: 100% !important;
     margin: 1px 0px !important; } }
 #banner {
+  background: url("/images/flag_white.png") no-repeat;
   background-color: #00206c;
   background-size: cover;
+  background-position: 50% 150px;
+  height: 525px;
   z-index: 100;
   padding-top: 45px;
   margin-bottom: 0; }
+  #banner a {
+    margin-top: 50px;
+    display: block;
+    color: #fff;
+    text-shadow: 1px 1px 1px black;
+    text-decoration: none;
+    font-size: 60px; }
   #banner h1 {
     text-align: center; }
-  #banner h2 {
-    color: #fff;
-    text-shadow: 1px 1px 1px black; }
 
 #contentContainer section {
   border-top: 1px dotted #efefef;
@@ -297,14 +304,14 @@ section {
     line-height: inherit !important;
     font-size: 25px !important;
     width: 150px; } }
-#venue .text-center, #travel .text-center {
+#register .text-center, #venue .text-center, #travel .text-center {
   margin-bottom: 20px; }
-#venue a.portrait, #travel a.portrait {
+#register a.portrait, #venue a.portrait, #travel a.portrait {
   margin-top: 10px;
   display: inline-block;
   border: 3px solid #000;
   border-radius: 400px; }
-#venue img, #travel img {
+#register img, #venue img, #travel img {
   border: 3px solid #fff;
   border-radius: 400px;
   width: 400px;
@@ -327,6 +334,10 @@ section {
       background: #f2f2f2; }
       #travel ul li a:hover {
         background: #eeeeee; }
+
+#register .intro {
+  font-size: 90%;
+  margin-bottom: 1em; }
 
 .punch {
   background: #bed428;
