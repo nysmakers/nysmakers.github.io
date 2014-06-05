@@ -186,7 +186,7 @@ section {
 #banner {
   background: url("/images/flag_white.png") no-repeat;
   background-color: rgba(0, 32, 108, 1);
-  background-size: cover;
+  background-size: 1280px;
   background-position: 50% 150px;
   height: 525px;
   z-index: 100;
@@ -499,29 +499,30 @@ section {
 }
 
 footer {
-  border-top: 1px solid #bbb;
-  padding-top: 1em;
   text-align: center;
   overflow: auto;
+  color: #fff;
 
-  background: #e2e2e2;
-  background: -moz-linear-gradient(top,  #e2e2e2 0%, #ffffff 49%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e2e2e2), color-stop(49%,#ffffff));
-  background: -webkit-linear-gradient(top,  #e2e2e2 0%,#ffffff 49%);
-  background: -o-linear-gradient(top,  #e2e2e2 0%,#ffffff 49%);
-  background: -ms-linear-gradient(top,  #e2e2e2 0%,#ffffff 49%);
-  background: linear-gradient(to bottom,  #e2e2e2 0%,#ffffff 49%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#ffffff',GradientType=0 );
+  padding-top: 430px;
+
+  background: url("/images/flag_white.png") no-repeat;
+  background-color: rgba(0, 32, 108, 1);
+  background-size: 1280px;
+  background-position: 50% -852px;
 
   nav {
     margin-bottom: 30px;
     a {
       display: inline-block;
       margin: 0px 25px;
+      color: #fff;
+      text-decoration: underline;
     }
   }
 
   .team {
+    margin-bottom: 15px;
+
     p {
       font-size: 12px;
     }
