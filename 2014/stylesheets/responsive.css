@@ -29,7 +29,7 @@ body {
   color: #37302a;
   background: #fff;
   font: normal 100%/1.4 sans-serif;
-  font-family: 'Bree Serif', georgia, serif; }
+  font-family: 'Fauna One', georgia, serif; }
 
 #nav,
 #nav * {
@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
   text-shadow: 1px 1px 1px white; }
 
 h1, h2, h3, h4, h5, h6, nav {
-  font-family: 'Fauna One', Helvetica, sans-serif; }
+  font-family: 'Bree Serif', Helvetica, sans-serif; }
 
 #nav {
   position: fixed;
@@ -239,17 +239,26 @@ section {
   color: #fff;
   text-shadow: 1px 1px 1px black;
   text-decoration: none;
-  font-family: 'Fauna One', Helvetica, sans-serif;
+  font-family: 'Bree Serif', Helvetica, sans-serif;
   background-position-x: 50%;
   padding-bottom: 20px; }
   #speakers a:hover {
     text-decoration: underline; }
 #speakers #keynotes {
   margin-bottom: 20px; }
+  #speakers #keynotes li {
+    border: 3px solid #000;
+    border-radius: 290px; }
   #speakers #keynotes a {
-    padding-top: 360px;
-    width: 300px;
-    font-size: 30px; }
+    padding-top: 250px;
+    width: 290px;
+    font-size: 30px;
+    background-size: contain;
+    background-color: #000;
+    border-radius: 290px;
+    border: 3px solid #fff; }
+    #speakers #keynotes a:hover {
+      text-decoration: none; }
 #speakers #talks {
   margin-top: 20px; }
   #speakers #talks a {
@@ -264,55 +273,22 @@ section {
     vertical-align: middle;
     font-size: 39px;
     -webkit-transform: perspective(600px) rotateY(10deg);
-    font-family: 'Fauna One', Helvetica, sans-serif;
+    font-family: 'Bree Serif', Helvetica, sans-serif;
     padding-left: 30px;
     width: 300px;
     text-align: left;
     line-height: 41px; }
-#speakers #j3 {
-  background-image: url("/images/speakers/j3.jpg");
+#speakers #r00k {
+  background: url("/images/speakers/r00k.jpg") no-repeat;
   background-position-y: 35%; }
-#speakers #sara {
-  background-image: url("/images/speakers/sara.jpg");
-  background-position-y: 20%; }
-#speakers #holman {
-  background-image: url("/images/speakers/holman.png");
-  background-position-y: 80%; }
-#speakers #neal {
-  background-image: url("/images/speakers/nealsales.jpg");
+#speakers #bryanl {
+  background: url("/images/speakers/bryanl.jpg") no-repeat;
   background-position-y: 35%; }
-#speakers #bantik {
-  background-image: url("/images/speakers/bantik.jpg");
+#speakers #sarahmei {
+  background: url("/images/speakers/sarahmei.jpg") no-repeat;
   background-position-y: 35%; }
-#speakers #mathiasx {
-  background-image: url("/images/speakers/mathiasx.jpg");
-  background-position-y: 35%; }
-#speakers #samkottler {
-  background-image: url("/images/speakers/samkottler.jpg");
-  background-position-y: 35%; }
-#speakers #flipsasser {
-  background-image: url("/images/speakers/flipsasser.jpg");
-  background-position-y: 35%; }
-#speakers #juliepagano {
-  background-image: url("/images/speakers/juliepagano.jpg");
-  background-position-y: 35%; }
-#speakers #mark_menard {
-  background-image: url("/images/speakers/mark_menard.jpg");
-  background-position-y: 35%; }
-#speakers #jeff_hsu {
-  background-image: url("/images/speakers/jeff_hsu.jpg");
-  background-position-y: 35%; }
-#speakers #greggyb {
-  background-image: url("/images/speakers/greggyb.jpg");
-  background-position-y: 0%; }
-#speakers #zzak {
-  background-image: url("/images/speakers/zzak.jpg");
-  background-position-y: 35%; }
-#speakers #austin_seraphin {
-  background-image: url("/images/speakers/austin_seraphin.jpg");
-  background-position-y: 35%; }
-#speakers #katie {
-  background-image: url("/images/speakers/katie.jpg");
+#speakers #antiheroine {
+  background: url("/images/speakers/antiheroine.jpg") no-repeat;
   background-position-y: 35%; }
 
 @media screen and (max-width: 780px) {
@@ -323,10 +299,16 @@ section {
     width: 150px; } }
 #venue .text-center, #travel .text-center {
   margin-bottom: 20px; }
+#venue a.portrait, #travel a.portrait {
+  margin-top: 10px;
+  display: inline-block;
+  border: 3px solid #000;
+  border-radius: 400px; }
 #venue img, #travel img {
+  border: 3px solid #fff;
+  border-radius: 400px;
   width: 400px;
-  height: 400px;
-  margin-top: 10px; }
+  height: 400px; }
 
 #travel code {
   font-size: 18px; }
@@ -356,7 +338,7 @@ section {
   padding: 10px 10px;
   text-shadow: 0px 1px 1px #9aac22;
   color: #fff;
-  font-family: "Fauna One", Helvetica, sans-serif;
+  font-family: "Bree Serif", Helvetica, sans-serif;
   font-size: 30px;
   text-decoration: none; }
   .punch:hover {
