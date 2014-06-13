@@ -260,7 +260,7 @@ section {
     border: 3px solid #fff; }
     #speakers #keynotes a:hover {
       text-decoration: none; }
-  @media only screen and (max-width: 767px) {
+  @media screen and (max-width: 40em) {
     #speakers #keynotes li {
       border: none;
       display: block; }
