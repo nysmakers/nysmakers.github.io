@@ -46,7 +46,8 @@ body {
 
 #nav,
 #nav ul {
-  list-style: none; }
+  list-style: none;
+  background: #2c426c; }
 
 #nav li {
   display: inline-block;
@@ -80,13 +81,6 @@ body {
     padding: 20px 25px;
     text-align: center;
     border-bottom: 0; } }
-#nav ul ul a {
-  background: #5a666a;
-  padding-left: 2em; }
-
-@media screen and (min-width: 40em) {
-  #nav ul ul a {
-    display: none; } }
 #nav-toggle {
   display: none;
   -webkit-touch-callout: none;
@@ -98,7 +92,7 @@ body {
   height: 55px;
   text-indent: -9999px;
   overflow: hidden;
-  background: #5a666a url("/images/hamburger.gif") no-repeat 50% 33%;
+  background: #2c426c url("/images/hamburger.gif") no-repeat 50% 33%;
   width: 100%; }
 
 @media screen and (-webkit-min-device-pixel-ratio: 1.3), screen and (min--moz-device-pixel-ratio: 1.3), screen and (-o-min-device-pixel-ratio: 2 / 1), screen and (min-device-pixel-ratio: 1.3), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
@@ -107,7 +101,8 @@ body {
     -webkit-background-size: 100px 100px;
     -moz-background-size: 100px 100px;
     -o-background-size: 100px 100px;
-    background-size: 100px 100px; } }
+    background-size: 100px 100px;
+    border-bottom: 1px solid #fff; } }
 p {
   font-size: 1.3em;
   line-height: 1.8em; }
@@ -132,6 +127,9 @@ section {
   margin-bottom: 30px; }
   section h2 {
     text-align: center; }
+  @media only screen and (max-width: 767px) {
+    section p {
+      padding: 0px 20px; } }
 
 @media screen and (max-width: 40em) {
   #nav-toggle {
@@ -140,9 +138,6 @@ section {
   #nav {
     position: relative !important; } }
 @media screen and (max-width: 767px) {
-  body section p {
-    padding: 0px 20px; }
-
   #schedule li {
     width: 100% !important; }
 
@@ -164,9 +159,17 @@ section {
     color: #fff;
     text-shadow: 1px 1px 1px black;
     text-decoration: none;
-    font-size: 60px; }
+    font-size: 60px;
+    line-height: 60px; }
   #banner h1 {
     text-align: center; }
+  @media screen and (max-width: 40em) {
+    #banner {
+      padding-top: 0;
+      height: 550px;
+      background-position-x: 48%; }
+      #banner a {
+        margin-top: 10px; } }
 
 #contentContainer section {
   border-top: 1px dotted #dedede;
@@ -268,6 +271,15 @@ section {
     border: 3px solid #fff; }
     #speakers #keynotes a:hover {
       text-decoration: none; }
+  @media only screen and (max-width: 767px) {
+    #speakers #keynotes li {
+      border: none;
+      display: block; }
+    #speakers #keynotes a {
+      background-size: cover;
+      border: 3px solid #000;
+      width: 100%;
+      padding-top: 250px; } }
 #speakers #talks {
   margin-top: 20px; }
   #speakers #talks a {
@@ -318,6 +330,13 @@ section {
   border-radius: 400px;
   width: 400px;
   height: 400px; }
+@media only screen and (max-width: 767px) {
+  #speak a.portrait, #register a.portrait, #venue a.portrait, #travel a.portrait {
+    border: none; }
+  #speak img, #register img, #venue img, #travel img {
+    border: 3px solid #000;
+    width: 100%;
+    height: 100%; } }
 
 #travel code {
   font-size: 18px; }

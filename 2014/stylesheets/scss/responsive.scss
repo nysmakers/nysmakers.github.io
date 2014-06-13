@@ -20,6 +20,12 @@ a:hover {
 @-o-viewport { width: device-width; }
 @viewport { width: device-width; }
 
+@mixin small-screen {
+  @media only screen and (max-width: 767px) {
+    @content;
+  }
+}
+
 body {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -48,6 +54,7 @@ body {
 #nav,
 #nav ul {
   list-style: none;
+  background: rgba(44, 66, 108, 1);
 }
 
 #nav li {
@@ -90,17 +97,6 @@ body {
   }
 }
 
-#nav ul ul a {
-  background: #5a666a;
-  padding-left: 2em;
-}
-
-@media screen and (min-width: 40em) {
-  #nav ul ul a {
-    display: none;
-  }
-}
-
 #nav-toggle {
   display: none;
   -webkit-touch-callout: none;
@@ -112,7 +108,7 @@ body {
   height: 55px;
   text-indent: -9999px;
   overflow: hidden;
-  background: #5a666a url("/images/hamburger.gif") no-repeat 50% 33%;
+  background: rgba(44, 66, 108, 1) url("/images/hamburger.gif") no-repeat 50% 33%;
   width: 100%;
 }
 
@@ -123,6 +119,7 @@ body {
     -moz-background-size: 100px 100px;
     -o-background-size: 100px 100px;
     background-size: 100px 100px;
+    border-bottom: 1px solid #fff;
   }
 }
 
@@ -157,6 +154,12 @@ section {
   h2 {
     text-align:center;
   }
+
+  @include small-screen {
+    p {
+      padding:0px 20px;
+    }
+  }
 }
 
 @media screen and (max-width: 40em) {
@@ -170,10 +173,6 @@ section {
 }
 
 @media screen and (max-width: 767px){
-  body section p {
-    padding:0px 20px;
-  }
-
   #schedule li {
     width: 100% !important;
   }
@@ -200,11 +199,22 @@ section {
     color: #fff;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
     text-decoration: none;
-    font-size: 60px
+    font-size: 60px;
+    line-height: 60px;
   }
 
   h1 {
     text-align:center;
+  }
+
+  @media screen and (max-width: 40em) {
+    padding-top: 0;
+    height: 550px;
+    background-position-x: 48%;
+
+    a {
+      margin-top: 10px;
+    }
   }
 }
 
@@ -232,7 +242,6 @@ section {
   li {
     padding:0px 0px 20px 0px;
     width: 60%;
-    //background:#f2f2f2;
     border-top: 1px dotted #BBB;
   }
 
@@ -356,6 +365,21 @@ section {
         text-decoration: none;
       }
     }
+
+    @include small-screen {
+      li {
+        border: none;
+        display: block;
+      }
+
+      a {
+        background-size: cover;
+        border: 3px solid #000;
+        width: 100%;
+        padding-top: 250px;
+      }
+    }
+
     margin-bottom: 20px;
   }
 
@@ -435,6 +459,18 @@ section {
     border-radius: 400px;
     width: 400px;
     height: 400px;
+  }
+
+  @include small-screen {
+    a.portrait {
+      border: none;
+    }
+
+    img {
+      border: 3px solid #000;
+      width: 100%;
+      height: 100%;
+    }
   }
 }
 
