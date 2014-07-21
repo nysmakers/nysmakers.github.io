@@ -440,7 +440,7 @@ footer {
     margin-top: 40px;
     margin-bottom: 20px; }
     #sponsors .gold li {
-      max-width: 80%; }
+      max-width: 50%; }
   #sponsors .silver {
     margin-bottom: 40px; }
     #sponsors .silver li {
@@ -448,4 +448,4 @@ footer {
       margin-left: 20px;
       margin-right: 20px; }
       #sponsors .silver li img {
-        max-height: 75px; }
+        max-height: 99px; }
