@@ -272,17 +272,18 @@ section {
 #speakers #talks {
   margin-top: 20px; }
   #speakers #talks a {
-    padding-top: 195px;
-    width: 187.5px;
-    font-size: 25px;
-    -webkit-transform: perspective(600px) rotateY(-10deg); }
+    padding-top: 145px;
+    width: 200px;
+    font-size: 24px;
+    background-size: cover;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 290px; }
   #speakers #talks tr {
     display: inline-block;
-    margin-bottom: 25px; }
+    margin-bottom: 30px; }
   #speakers #talks td:last-child {
     vertical-align: middle;
-    font-size: 39px;
-    -webkit-transform: perspective(600px) rotateY(10deg);
+    font-size: 34px;
     font-family: 'Bree Serif', Helvetica, sans-serif;
     padding-left: 30px;
     width: 300px;
@@ -300,6 +301,34 @@ section {
 #speakers #antiheroine {
   background: url("/images/speakers/antiheroine.jpg") no-repeat;
   background-position-y: 35%; }
+#speakers #juliancheal {
+  background: url("/images/speakers/juliancheal.jpg") no-repeat;
+  background-position-y: 35%; }
+#speakers #bantik {
+  background: url("/images/speakers/coraline.png") no-repeat;
+  background-position-y: 35%; }
+#speakers #dabit {
+  background: url("/images/speakers/dabit.jpg") no-repeat;
+  background-position-y: 35%; }
+#speakers #meaganewaller {
+  background: url("/images/speakers/meaganewaller.jpg") no-repeat;
+  background-position-y: 35%; }
+#speakers #tehviking {
+  background: url("/images/speakers/tehviking.jpg") no-repeat;
+  background-position-y: 35%; }
+#speakers #poteland {
+  background: url("/images/speakers/poteland.jpg") no-repeat;
+  background-position-x: 60%;
+  background-position-y: 35%; }
+#speakers #estiens {
+  background: url("/images/speakers/estiens.png") no-repeat;
+  background-position-y: 35%; }
+#speakers #kerrizor {
+  background: url("/images/speakers/kerrizor.jpg") no-repeat;
+  background-position-y: 35%; }
+#speakers #yerhot {
+  background: url("/images/speakers/yerhot.jpg") no-repeat;
+  background-position-x: 35%; }
 
 @media screen and (max-width: 780px) {
   #speakers #talks td:last-child {

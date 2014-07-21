@@ -381,22 +381,26 @@ section {
   #talks {
     margin-top: 20px;
 
+    td:first-child {
+    }
+
     a {
-      padding-top: 195px;
-      width: 187.5px;
-      font-size: 25px;
-      -webkit-transform: perspective( 600px ) rotateY( -10deg )
+      padding-top: 145px;
+      width: 200px;
+      font-size: 24px;
+      background-size: cover;
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+      border-radius: 290px;
     }
 
     tr {
       display: inline-block;
-      margin-bottom: 25px;
+      margin-bottom: 30px;
     }
 
     td:last-child {
       vertical-align: middle;
-      font-size: 39px;
-      -webkit-transform: perspective(600px) rotateY(10deg);
+      font-size: 34px;
       font-family: 'Bree Serif', Helvetica, sans-serif;
       padding-left: 30px;
       width: 300px;
@@ -423,6 +427,52 @@ section {
   #antiheroine {
     background: url('/images/speakers/antiheroine.jpg') no-repeat;
     background-position-y: 35%;
+  }
+
+  #juliancheal {
+    background: url('/images/speakers/juliancheal.jpg') no-repeat;
+    background-position-y: 35%;
+  }
+
+  #bantik {
+    background: url('/images/speakers/coraline.png') no-repeat;
+    background-position-y: 35%;
+  }
+
+  #dabit {
+    background: url('/images/speakers/dabit.jpg') no-repeat;
+    background-position-y: 35%;
+  }
+
+  #meaganewaller {
+    background: url('/images/speakers/meaganewaller.jpg') no-repeat;
+    background-position-y: 35%;
+  }
+
+  #tehviking {
+    background: url('/images/speakers/tehviking.jpg') no-repeat;
+    background-position-y: 35%;
+  }
+
+  #poteland {
+    background: url('/images/speakers/poteland.jpg') no-repeat;
+    background-position-x: 60%;
+    background-position-y: 35%;
+  }
+
+  #estiens {
+    background: url('/images/speakers/estiens.png') no-repeat;
+    background-position-y: 35%;
+  }
+
+  #kerrizor {
+    background: url('/images/speakers/kerrizor.jpg') no-repeat;
+    background-position-y: 35%;
+  }
+
+  #yerhot {
+    background: url('/images/speakers/yerhot.jpg') no-repeat;
+    background-position-x: 35%;
   }
 }
 
