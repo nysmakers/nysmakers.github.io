@@ -387,7 +387,7 @@ section {
     a {
       padding-top: 145px;
       width: 200px;
-      font-size: 24px;
+      font-size: 22px;
       background-size: cover;
       text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
       border-radius: 290px;
@@ -472,6 +472,11 @@ section {
 
   #yerhot {
     background: url('/images/speakers/yerhot.jpg') no-repeat;
+    background-position-x: 35%;
+  }
+
+  #sebasoga {
+    background: url('/images/speakers/sebasoga.jpg') no-repeat;
     background-position-x: 35%;
   }
 }
