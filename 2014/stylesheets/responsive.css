@@ -137,8 +137,8 @@ section {
   background: url("/images/flag_white.png") no-repeat;
   background-color: #00206c;
   background-size: 1280px;
-  background-position: 50% 150px;
-  height: 525px;
+  background-position: 50% 200px;
+  height: 580px;
   z-index: 100;
   padding-top: 45px;
   margin-bottom: 0; }
@@ -151,7 +151,12 @@ section {
     font-size: 60px;
     line-height: 60px; }
   #banner h1 {
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 5px; }
+  #banner h2 {
+    text-align: center;
+    color: #fff;
+    text-shadow: none; }
   @media screen and (max-width: 40em) {
     #banner {
       padding-top: 0;

@@ -182,8 +182,8 @@ section {
   background: url("/images/flag_white.png") no-repeat;
   background-color: rgba(0, 32, 108, 1);
   background-size: 1280px;
-  background-position: 50% 150px;
-  height: 525px;
+  background-position: 50% 200px;
+  height: 580px;
   z-index: 100;
   padding-top: 45px;
   margin-bottom: 0;
@@ -200,6 +200,13 @@ section {
 
   h1 {
     text-align:center;
+    margin-bottom: 5px;
+  }
+
+  h2 {
+    text-align:center;
+    color: #fff;
+    text-shadow: none;
   }
 
   @include except-desktop {
