@@ -478,6 +478,8 @@ footer {
     margin-bottom: 20px; }
     #sponsors .gold li {
       max-width: 50%; }
+      #sponsors .gold li img {
+        max-height: 200px; }
   #sponsors .silver {
     margin-bottom: 40px; }
     #sponsors .silver li {
