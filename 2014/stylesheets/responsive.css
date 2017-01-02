@@ -392,12 +392,12 @@ section {
 footer {
   text-align: center;
   overflow: auto;
-  color: #fff;
-  padding-top: 430px;
-  background: url("/images/flag_white.png") no-repeat;
-  background-color: #00206c;
-  background-size: 1280px;
-  background-position: 50% -852px; }
+  padding-top: 100px;
+  background: url("/images/old_map.jpg") no-repeat top left;
+  background-size: cover;
+  /*height: 400px;*/
+  /*background-position: 50% -852px; */
+  }
   footer nav {
     margin-bottom: 30px; }
     footer nav a {
@@ -432,9 +432,9 @@ footer {
   footer .thanks {
     font-size: 10px;
     font-style: italic;
-    color: #aaa; }
+    color: #fff; }
     footer .thanks a {
-      color: #aaa;
+      color: #fff;
       text-decoration: underline; }
       footer .thanks a:hover {
         color: #fff;
