@@ -1,4 +1,4 @@
-# NickelCityRuby
+# NYS Maker Summit
 
 Get started!
 
@@ -12,3 +12,5 @@ Run the site with:
 ## License
 
 MIT. See `MIT-LICENSE`.
+
+Originally cloned from [NickelCity Ruby](https://github.com/nickelcityruby/nickelcityruby.github.com).
