@@ -134,36 +134,17 @@ section {
     width: 100% !important;
     margin: 1px 0px !important; } }
 #banner {
-  background: url("/images/flag_white.png") no-repeat;
-  background-color: #00206c;
-  background-size: 1280px;
-  background-position: 50% 200px;
-  height: 580px;
+  background: url("/images/old_map.jpg") no-repeat top left;
+  background-size: cover;
   z-index: 100;
   padding-top: 45px;
-  margin-bottom: 0; }
-  #banner a {
-    margin-top: 50px;
-    display: block;
-    color: #fff;
-    text-shadow: 1px 1px 1px black;
-    text-decoration: none;
-    font-size: 60px;
-    line-height: 60px; }
+  margin-bottom: 0;
+  height: 400px; }
   #banner h1 {
-    text-align: center;
-    margin-bottom: 5px; }
+    text-align: center; }
   #banner h2 {
-    text-align: center;
     color: #fff;
-    text-shadow: none; }
-  @media screen and (max-width: 40em) {
-    #banner {
-      padding-top: 0;
-      height: 550px;
-      background-position-x: 48%; }
-      #banner a {
-        margin-top: 10px; } }
+    text-shadow: 1px 1px 1px black; }
 
 #contentContainer section {
   border-top: 1px dotted #dedede;
@@ -306,7 +287,7 @@ section {
   background: url("/images/speakers/antiheroine.jpg") no-repeat;
   background-position-y: 35%; }
 #speakers #juliancheal {
-  background: url("/images/speakers/juliancheal.jpg") no-repeat;
+  background: url("/images/speakers/dan.jpg") no-repeat;
   background-position-y: 35%; }
 #speakers #bantik {
   background: url("/images/speakers/coraline.png") no-repeat;
