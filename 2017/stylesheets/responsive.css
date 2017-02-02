@@ -217,6 +217,10 @@ section {
     #schedule .fullschedule .slot p {
       padding: 0; }
 
+.keynote-speaker-bio{
+  font-size: 1em;
+}
+
 #speakers p {
   margin-bottom: 20px; }
 #speakers a {
@@ -274,9 +278,9 @@ section {
     width: 300px;
     text-align: left;
     line-height: 41px; }
-#speakers #r00k {
-  background: url("/images/speakers/r00k.jpg") no-repeat;
-  background-position-y: 35%; }
+#speakers #andrewcoy {
+  background: url("/images/speakers/andrewcoy.jpg") no-repeat;
+  background-position-y: 35%;}
 #speakers #bryanl {
   background: url("/images/speakers/bryanl.jpg") no-repeat;
   background-position-y: 35%; }
