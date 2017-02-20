@@ -311,14 +311,17 @@ section {
 #speakers #davidbrenner {
   background: url("/images/speakers/DavidBrenner.jpg") no-repeat;
   background-position-y: 35%; }
-#speakers #kerrizor {
-  background: url("/images/speakers/kerrizor.jpg") no-repeat;
+#speakers #sildawallspitzer {
+  background: url("/images/speakers/SildaWallSpitzer.jpg") no-repeat;
   background-position-y: 35%; }
-#speakers #yerhot {
-  background: url("/images/speakers/yerhot.jpg") no-repeat;
+#speakers #audraherman {
+  background: url("/images/speakers/AudraHerman.jpg") no-repeat;
   background-position-x: 35%; }
-#speakers #sebasoga {
-  background: url("/images/speakers/sebasoga.jpg") no-repeat;
+#speakers #chadputman {
+  background: url("/images/speakers/ChadPutman.jpg") no-repeat;
+  background-position-x: 35%; }
+#speakers #mikebuffalin {
+  background: url("/images/speakers/MikeBuffalin.jpg") no-repeat;
   background-position-x: 35%; }
 
 @media screen and (max-width: 780px) {
