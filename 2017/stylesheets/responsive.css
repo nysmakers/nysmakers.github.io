@@ -323,6 +323,9 @@ section {
 #speakers #mikebuffalin {
   background: url("/images/speakers/MikeBuffalin.jpeg") no-repeat;
   background-position-x: 35%; }
+#speakers #ffl {
+  background: url("/images/speakers/FFL.jpg") no-repeat;
+  background-position-x: 35%; }
 
 @media screen and (max-width: 780px) {
   #speakers #talks td:last-child {
