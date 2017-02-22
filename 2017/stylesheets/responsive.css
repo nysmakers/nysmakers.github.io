@@ -326,6 +326,9 @@ section {
 #speakers #ffl {
   background: url("/images/speakers/FFL.jpg") no-repeat;
   background-position-x: 35%; }
+#speakers #dirkswart {
+  background: url("/images/speakers/DirkSwart.jpg") no-repeat;
+  background-position-x: 35%; }
 
 @media screen and (max-width: 780px) {
   #speakers #talks td:last-child {
