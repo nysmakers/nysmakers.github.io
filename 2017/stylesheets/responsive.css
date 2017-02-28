@@ -347,6 +347,15 @@ section {
 #speakers #jasonpeppers {
   background: url("/images/speakers/JasonPeppers.jpg") no-repeat;
   background-position-x: 35%; }
+#speakers #kathyceceri {
+  background: url("/images/speakers/KathyCeceri.jpg") no-repeat;
+  background-position-x: 35%; }
+#speakers #jacobvennievollrath {
+  background: url("/images/speakers/JacobVennieVollrath.jpg") no-repeat;
+  background-position-x: 35%; }
+#speakers #mariamuhlbauer {
+  background: url("/images/speakers/MariaMuhlbauer.jpg") no-repeat;
+  background-position-x: 35%; }
 
 @media screen and (max-width: 780px) {
   #speakers #talks td:last-child {
