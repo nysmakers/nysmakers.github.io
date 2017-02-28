@@ -356,6 +356,21 @@ section {
 #speakers #mariamuhlbauer {
   background: url("/images/speakers/MariaMuhlbauer.jpg") no-repeat;
   background-position-x: 35%; }
+#speakers #benparnas {
+  background: url("/images/speakers/BenParnas.jpg") no-repeat;
+  background-position-x: 35%; }
+#speakers #kimberlyoakes {
+  background: url("/images/speakers/KimberlyOakes.jpeg") no-repeat;
+  background-position-x: 35%; }
+#speakers #bonniesanborn {
+  background: url("/images/speakers/BonnieSanborn.jpg") no-repeat;
+  background-position-x: 35%; }
+#speakers #christinestockslader {
+  background: url("/images/speakers/ChristineStockslader.jpg") no-repeat;
+  background-position-x: 35%; }
+#speakers #loristahlvanbrackle {
+  background: url("/images/speakers/LoriStahlVanBrackle.jpg") no-repeat;
+  background-position-x: 35%; }
 
 @media screen and (max-width: 780px) {
   #speakers #talks td:last-child {
