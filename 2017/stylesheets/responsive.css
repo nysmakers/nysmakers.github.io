@@ -332,6 +332,21 @@ section {
 #speakers #tracygray {
   background: url("/images/speakers/TracyGray.jpg") no-repeat;
   background-position-x: 35%; }
+#speakers #leedaryl {
+  background: url("/images/speakers/LeeDaryl.png") no-repeat;
+  background-position-x: 35%; }
+#speakers #annettewong {
+  background: url("/images/speakers/AnnetteWong.png") no-repeat;
+  background-position-x: 35%; }
+#speakers #michaelgiannattasio {
+  background: url("/images/speakers/MichaelGiannattasio.jpg") no-repeat;
+  background-position-x: 35%; }
+#speakers #jesseharringtonau {
+  background: url("/images/speakers/JesseHarringtonAu.jpg") no-repeat;
+  background-position-x: 35%; }
+#speakers #jasonpeppers {
+  background: url("/images/speakers/JasonPeppers.jpg") no-repeat;
+  background-position-x: 35%; }
 
 @media screen and (max-width: 780px) {
   #speakers #talks td:last-child {
