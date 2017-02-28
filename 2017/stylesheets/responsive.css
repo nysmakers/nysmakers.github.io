@@ -329,6 +329,9 @@ section {
 #speakers #dirkswart {
   background: url("/images/speakers/DirkSwart.jpg") no-repeat;
   background-position-x: 35%; }
+#speakers #tracygray {
+  background: url("/images/speakers/TracyGray.jpg") no-repeat;
+  background-position-x: 35%; }
 
 @media screen and (max-width: 780px) {
   #speakers #talks td:last-child {
