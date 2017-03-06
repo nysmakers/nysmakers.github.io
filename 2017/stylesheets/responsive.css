@@ -371,6 +371,9 @@ section {
 #speakers #loristahlvanbrackle {
   background: url("/images/speakers/LoriStahlVanBrackle.jpg") no-repeat;
   background-position-x: 35%; }
+#speakers #ilyssameyer {
+  background: url("/images/speakers/IlyssaMeyer.jpg") no-repeat;
+  background-position-x: 35%; }
 
 @media screen and (max-width: 780px) {
   #speakers #talks td:last-child {
