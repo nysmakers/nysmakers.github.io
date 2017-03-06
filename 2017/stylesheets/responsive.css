@@ -386,6 +386,9 @@ section {
 #speakers #susanrivers {
   background: url("/images/speakers/SusanRivers.jpg") no-repeat;
   background-position-x: 35%; }
+#speakers #douglasborzynski {
+  background: url("/images/speakers/DouglasBorzynski.jpg") no-repeat;
+  background-position-x: 35%; }
 
 @media screen and (max-width: 780px) {
   #speakers #talks td:last-child {
