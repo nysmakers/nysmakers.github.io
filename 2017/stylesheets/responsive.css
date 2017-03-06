@@ -324,7 +324,7 @@ section {
   background: url("/images/speakers/MikeBuffalin.jpeg") no-repeat;
   background-position-x: 35%; }
 #speakers #ffl {
-  background: url("/images/speakers/FFL.jpg") no-repeat;
+  background: url("/images/speakers/LeahmKraus.jpg") no-repeat;
   background-position-x: 35%; }
 #speakers #dirkswart {
   background: url("/images/speakers/DirkSwart.jpg") no-repeat;
@@ -373,6 +373,18 @@ section {
   background-position-x: 35%; }
 #speakers #ilyssameyer {
   background: url("/images/speakers/IlyssaMeyer.jpg") no-repeat;
+  background-position-x: 35%; }
+#speakers #leahhamilton {
+  background: url("/images/speakers/LeahHamilton.jpg") no-repeat;
+  background-position-x: 35%; }
+#speakers #ceceliarrittelli {
+  background: url("/images/speakers/CeceliaFrittelli.jpg") no-repeat;
+  background-position-x: 35%; }
+#speakers #paulrubeo {
+  background: url("/images/speakers/PaulRubeo.jpg") no-repeat;
+  background-position-x: 35%; }
+#speakers #susanrivers {
+  background: url("/images/speakers/SusanRivers.jpg") no-repeat;
   background-position-x: 35%; }
 
 @media screen and (max-width: 780px) {
