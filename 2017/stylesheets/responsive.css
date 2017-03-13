@@ -425,6 +425,9 @@ section {
 #speakers #janellawatson {
   background: url("/images/speakers/JanellaWatson.jpg") no-repeat;
   background-position-x: 35%; }
+#speakers #calvinuzelmeier {
+  background: url("/images/speakers/CalvinUzelmeier.jpeg") no-repeat;
+  background-position-x: 35%; }
 
 @media screen and (max-width: 780px) {
   #speakers #talks td:last-child {
