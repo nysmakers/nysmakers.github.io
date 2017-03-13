@@ -407,6 +407,24 @@ section {
 #speakers #paultonko {
   background: url("/images/speakers/PaulTonko.jpg") no-repeat;
   background-position-x: 35%; }
+#speakers #bethbornick {
+  background: url("/images/speakers/BethBornick.jpg") no-repeat;
+  background-position-x: 35%; }
+#speakers #williambrigham {
+  background: url("/images/speakers/WilliamBrigham.jpg") no-repeat;
+  background-position-x: 35%; }
+#speakers #amandaervin {
+  background: url("/images/speakers/AmandaErvin.jpg") no-repeat;
+  background-position-x: 35%; }
+#speakers #susansherwood {
+  background: url("/images/speakers/SusanSherwood.jpg") no-repeat;
+  background-position-x: 35%; }
+#speakers #andreabuckvold {
+  background: url("/images/speakers/AndreaBuckvold.jpg") no-repeat;
+  background-position-x: 35%; }
+#speakers #janellawatson {
+  background: url("/images/speakers/JanellaWatson.jpg") no-repeat;
+  background-position-x: 35%; }
 
 @media screen and (max-width: 780px) {
   #speakers #talks td:last-child {
