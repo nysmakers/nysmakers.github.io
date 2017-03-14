@@ -443,6 +443,9 @@ section {
 #speakers #kathrynwieczorek {
   background: url("/images/speakers/KathrynWieczorek.jpg") no-repeat;
   background-position-x: 35%; }
+#speakers #elavarasijoseph {
+  background: url("/images/speakers/ElavarasiJoseph.jpg") no-repeat;
+  background-position-x: 35%; }
 
 @media screen and (max-width: 780px) {
   #speakers #talks td:last-child {
