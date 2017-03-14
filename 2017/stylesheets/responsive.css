@@ -446,6 +446,9 @@ section {
 #speakers #elavarasijoseph {
   background: url("/images/speakers/ElavarasiJoseph.jpg") no-repeat;
   background-position-x: 35%; }
+#speakers #scottvancampen {
+  background: url("/images/speakers/ScottVanCampen.jpg") no-repeat;
+  background-position-x: 35%; }
 
 @media screen and (max-width: 780px) {
   #speakers #talks td:last-child {
