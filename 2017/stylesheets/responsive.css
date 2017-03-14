@@ -428,6 +428,18 @@ section {
 #speakers #calvinuzelmeier {
   background: url("/images/speakers/CalvinUzelmeier.jpeg") no-repeat;
   background-position-x: 35%; }
+#speakers #deenasalzman {
+  background: url("/images/speakers/DeenaSalzman.jpg") no-repeat;
+  background-position-x: 35%; }
+#speakers #nicktanzi {
+  background: url("/images/speakers/NickTanzi.jpg") no-repeat;
+  background-position-x: 35%; }
+#speakers #micaelahall {
+  background: url("/images/speakers/MicaelaHall.jpg") no-repeat;
+  background-position-x: 35%; }
+#speakers #kathrynwieczorek {
+  background: url("/images/speakers/KathrynWieczorek.jpg") no-repeat;
+  background-position-x: 35%; }
 
 @media screen and (max-width: 780px) {
   #speakers #talks td:last-child {
