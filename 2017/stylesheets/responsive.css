@@ -459,6 +459,27 @@ section {
 #speakers #gennypond {
   background: url("/images/speakers/GennyPond.jpg") no-repeat;
   background-position-x: 35%; }
+#speakers #stevenmcintyre {
+  background: url("/images/speakers/StevenMcIntyre.jpg") no-repeat;
+  background-position-x: 35%; }
+#speakers #martinping {
+  background: url("/images/speakers/MartinPing.jpg") no-repeat;
+  background-position-x: 35%; }
+#speakers #llianavillegas {
+  background: url("/images/speakers/LlianaVillegas.png") no-repeat;
+  background-position-x: 35%; }
+#speakers #rosescordo {
+  background: url("/images/speakers/RoseScordo.jpg") no-repeat;
+  background-position-x: 35%; }
+#speakers #aaronrichardson {
+  background: url("/images/speakers/AaronRichardson.png") no-repeat;
+  background-position-x: 35%; }
+#speakers #stephengilman {
+  background: url("/images/speakers/StephenGilman.png") no-repeat;
+  background-position-x: 35%; }
+#speakers #darlynneoverbaugh {
+  background: url("/images/speakers/DarlynneOverbaugh.jpg") no-repeat;
+  background-position-x: 35%; }
 
 @media screen and (max-width: 780px) {
   #speakers #talks td:last-child {
