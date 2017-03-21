@@ -480,6 +480,9 @@ section {
 #speakers #darlynneoverbaugh {
   background: url("/images/speakers/DarlynneOverbaugh.jpg") no-repeat;
   background-position-x: 35%; }
+#speakers #elliotwells {
+  background: url("/images/speakers/ElliotWells.jpg") no-repeat;
+  background-position-x: 35%; }
 
 @media screen and (max-width: 780px) {
   #speakers #talks td:last-child {
