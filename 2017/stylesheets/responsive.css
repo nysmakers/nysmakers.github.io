@@ -538,6 +538,11 @@ section {
   font-size: 90%;
   margin-bottom: 1em; }
 
+.registration-closed{
+  font-weight: 900;
+  font-size: 22px;
+}
+
 .punch {
   background: #bed428;
   -webkit-border-radius: 10px;
