@@ -133,18 +133,6 @@ section {
   #travel ul li {
     width: 100% !important;
     margin: 1px 0px !important; } }
-#banner {
-  background: url("/images/old_map.jpg") no-repeat top left;
-  background-size: cover;
-  z-index: 100;
-  padding-top: 45px;
-  margin-bottom: 0;
-  height: 420px; }
-  #banner h1 {
-    text-align: center; }
-  #banner h2 {
-    color: #fff;
-    text-shadow: 1px 1px 1px black; }
 
 #banner_contact {
   background: url("/images/old_map.jpg") no-repeat top left;
@@ -156,6 +144,20 @@ section {
   #banner_contact h1 {
     text-align: center; }
   #banner_contact h2 {
+    color: #fff;
+    text-shadow: 1px 1px 1px black; }
+
+
+#banner {
+  background: url("/images/old_map.jpg") no-repeat top left;
+  background-size: cover;
+  z-index: 100;
+  padding-top: 45px;
+  margin-bottom: 0;
+  height: 420px; }
+  #banner h1 {
+    text-align: center; }
+  #banner h2 {
     color: #fff;
     text-shadow: 1px 1px 1px black; }
 
